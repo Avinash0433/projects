@@ -1,0 +1,1001 @@
+customer_id,age,tenure_months,monthly_charges,total_charges,contract_type,payment_method,internet_service,support_calls,late_payments,data_usage_gb,satisfaction_score,churn
+CUST0001,59,14,149.52,2210.46,Month-to-Month,Bank Transfer,Fiber,4,0,60.1,2.0,Yes
+CUST0002,49,40,146.72,5190.05,Two Year,Debit Card,DSL,3,1,37.5,3.0,Yes
+CUST0003,35,41,104.54,4136.78,One Year,UPI,Fiber,0,0,61.5,4.0,Yes
+CUST0004,28,22,45.94,997.41,Two Year,Bank Transfer,Fiber,0,1,29.6,3.0,No
+CUST0005,41,11,108.43,1145.87,One Year,Credit Card,Fiber,2,1,11.1,3.0,Yes
+CUST0006,59,23,29.39,599.12,One Year,Credit Card,Fiber,3,1,35.0,2.0,No
+CUST0007,39,1,23.98,23.4,One Year,Debit Card,Fiber,5,3,45.5,5.0,No
+CUST0008,43,46,53.5,2646.44,Two Year,Debit Card,None,0,0,38.0,2.0,No
+CUST0009,31,37,80.14,2583.57,One Year,Debit Card,None,0,1,33.2,5.0,No
+CUST0010,31,21,132.88,2439.03,One Year,Credit Card,Fiber,3,3,68.0,4.0,No
+CUST0011,44,26,114.53,2848.04,Month-to-Month,Bank Transfer,Fiber,3,0,79.6,2.0,No
+CUST0012,56,46,116.55,6071.77,Month-to-Month,Credit Card,Fiber,3,1,77.3,2.0,Yes
+CUST0013,60,36,75.31,2848.27,One Year,UPI,Fiber,3,0,56.4,1.0,No
+CUST0014,44,54,64.97,3696.43,Month-to-Month,Credit Card,None,3,1,60.3,2.0,Yes
+CUST0015,23,23,68.24,1504.5,Month-to-Month,UPI,Fiber,1,1,26.9,1.0,No
+CUST0016,42,57,148.39,8695.89,Month-to-Month,Bank Transfer,DSL,3,4,43.3,5.0,No
+CUST0017,22,1,25.21,21.51,Month-to-Month,Debit Card,Fiber,4,1,47.4,5.0,No
+CUST0018,44,54,132.71,7458.93,Month-to-Month,Debit Card,None,3,0,52.0,5.0,No
+CUST0019,50,55,95.23,5887.05,Month-to-Month,Credit Card,Fiber,2,1,51.6,1.0,No
+CUST0020,58,51,77.02,4060.68,Two Year,Debit Card,DSL,3,1,45.5,5.0,No
+CUST0021,22,40,114.28,5083.68,Month-to-Month,Bank Transfer,Fiber,1,1,56.1,3.0,Yes
+CUST0022,41,15,83.27,1332.98,Month-to-Month,Debit Card,DSL,1,0,50.4,2.0,No
+CUST0023,53,21,133.55,2485.3,Month-to-Month,Credit Card,Fiber,3,0,50.4,1.0,Yes
+CUST0024,32,47,137.09,7221.16,One Year,Bank Transfer,Fiber,1,0,30.7,5.0,No
+CUST0025,42,9,74.82,585.8,Month-to-Month,UPI,None,4,0,23.5,3.0,Yes
+CUST0026,45,53,55.99,2997.71,Two Year,Credit Card,None,3,1,52.2,2.0,No
+CUST0027,47,9,97.01,779.36,One Year,UPI,DSL,0,1,35.8,2.0,No
+CUST0028,48,10,138.61,1183.05,One Year,Bank Transfer,DSL,2,2,31.5,5.0,No
+CUST0029,36,52,47.39,2406.64,Month-to-Month,Credit Card,DSL,3,1,62.3,3.0,No
+CUST0030,35,57,100.99,5402.48,One Year,Credit Card,Fiber,2,1,43.6,1.0,No
+CUST0031,23,53,102.1,5388.57,Month-to-Month,Bank Transfer,Fiber,1,2,85.4,5.0,No
+CUST0032,57,26,115.3,,Two Year,Debit Card,Fiber,4,1,59.1,2.0,No
+CUST0033,27,41,37.1,1312.89,One Year,Credit Card,DSL,1,2,29.7,2.0,No
+CUST0034,41,35,113.06,3509.56,Month-to-Month,Credit Card,Fiber,1,0,62.7,2.0,Yes
+CUST0035,29,52,138.17,7311.24,Month-to-Month,UPI,Fiber,0,2,54.8,5.0,No
+CUST0036,59,25,43.36,1033.0,Month-to-Month,Debit Card,DSL,3,0,29.1,4.0,No
+CUST0037,38,26,50.88,1413.83,One Year,UPI,DSL,0,2,33.5,4.0,No
+CUST0038,24,11,146.28,1682.59,Month-to-Month,UPI,Fiber,2,1,61.2,4.0,No
+CUST0039,45,38,43.53,1825.64,One Year,Debit Card,Fiber,2,1,15.8,3.0,No
+CUST0040,34,2,131.07,277.28,Month-to-Month,Debit Card,Fiber,0,3,12.2,5.0,Yes
+CUST0041,29,7,84.0,575.64,One Year,Bank Transfer,Fiber,2,0,49.0,2.0,No
+CUST0042,46,18,52.14,987.22,Two Year,Debit Card,Fiber,4,1,47.1,3.0,Yes
+CUST0043,22,27,133.2,3354.05,One Year,Credit Card,DSL,4,2,51.2,4.0,No
+CUST0044,40,34,77.89,2494.38,One Year,Debit Card,DSL,4,0,47.2,1.0,Yes
+CUST0045,48,27,86.93,2550.59,Month-to-Month,Bank Transfer,DSL,3,0,55.7,3.0,No
+CUST0046,27,17,66.7,1115.67,Month-to-Month,Bank Transfer,Fiber,1,3,80.2,3.0,Yes
+CUST0047,28,43,97.08,4548.11,One Year,Bank Transfer,DSL,2,1,45.0,5.0,No
+CUST0048,55,59,41.26,2669.81,Month-to-Month,Debit Card,Fiber,1,0,19.5,3.0,No
+CUST0049,34,44,70.84,3451.31,Month-to-Month,Debit Card,Fiber,1,1,14.6,5.0,No
+CUST0050,37,59,146.02,9692.0,Month-to-Month,UPI,DSL,4,0,37.4,1.0,Yes
+CUST0051,56,51,53.56,2675.0,Month-to-Month,UPI,Fiber,3,2,38.0,2.0,Yes
+CUST0052,60,54,105.38,5381.3,Month-to-Month,Credit Card,Fiber,4,1,21.4,2.0,Yes
+CUST0053,24,24,62.27,1531.33,Two Year,UPI,DSL,2,4,10.7,4.0,No
+CUST0054,22,25,120.55,2897.27,Month-to-Month,Credit Card,Fiber,1,1,36.0,4.0,No
+CUST0055,26,7,37.01,266.93,One Year,Bank Transfer,DSL,2,1,97.2,1.0,No
+CUST0056,24,52,146.08,8064.66,Month-to-Month,UPI,Fiber,3,1,54.6,2.0,Yes
+CUST0057,49,6,78.99,500.73,One Year,Debit Card,DSL,4,2,52.3,4.0,No
+CUST0058,38,53,50.69,2585.46,Month-to-Month,UPI,Fiber,2,1,41.1,3.0,No
+CUST0059,46,24,29.55,638.32,Two Year,Credit Card,Fiber,3,0,37.4,5.0,No
+CUST0060,54,33,42.07,1359.38,Two Year,UPI,DSL,0,2,57.4,4.0,No
+CUST0061,30,49,87.57,3830.85,Month-to-Month,Bank Transfer,Fiber,2,1,22.9,1.0,Yes
+CUST0062,56,29,63.81,2067.05,Two Year,Debit Card,Fiber,1,0,109.7,2.0,No
+CUST0063,34,43,127.75,5239.26,Two Year,Credit Card,Fiber,3,2,23.9,1.0,Yes
+CUST0064,51,22,76.02,1499.07,Two Year,Debit Card,Fiber,2,1,59.9,5.0,No
+CUST0065,35,26,52.33,1166.88,Two Year,Debit Card,Fiber,1,1,25.2,5.0,No
+CUST0066,28,28,100.23,2929.21,Month-to-Month,Credit Card,Fiber,2,0,47.8,1.0,Yes
+CUST0067,34,50,111.88,5823.75,One Year,Debit Card,None,1,0,63.1,4.0,No
+CUST0068,43,21,41.72,834.23,Month-to-Month,Debit Card,Fiber,2,1,17.3,4.0,Yes
+CUST0069,60,49,41.79,1784.61,Month-to-Month,UPI,Fiber,5,3,26.7,2.0,No
+CUST0070,41,7,24.77,168.69,Two Year,Debit Card,Fiber,3,1,27.7,2.0,No
+CUST0071,36,17,115.73,1855.99,Month-to-Month,Debit Card,Fiber,4,1,39.1,3.0,Yes
+CUST0072,38,20,106.29,2238.76,One Year,Debit Card,None,2,5,50.8,3.0,Yes
+CUST0073,44,41,81.7,3456.0,Two Year,Debit Card,Fiber,3,3,98.2,2.0,Yes
+CUST0074,46,49,129.74,6099.02,Two Year,Credit Card,None,2,3,33.3,3.0,No
+CUST0075,45,20,124.74,2283.66,Two Year,Bank Transfer,Fiber,1,2,95.1,1.0,Yes
+CUST0076,49,54,96.1,5949.18,Month-to-Month,UPI,DSL,1,2,53.7,4.0,No
+CUST0077,35,22,132.88,2883.02,Month-to-Month,Debit Card,DSL,2,1,23.4,3.0,Yes
+CUST0078,21,28,46.76,1383.23,Month-to-Month,Debit Card,DSL,3,1,,3.0,No
+CUST0079,45,40,34.55,1232.97,Month-to-Month,Credit Card,DSL,1,0,19.7,1.0,No
+CUST0080,27,49,55.07,2686.76,Month-to-Month,Bank Transfer,DSL,2,3,37.5,5.0,No
+CUST0081,29,7,27.42,164.73,Month-to-Month,Debit Card,Fiber,1,1,36.1,2.0,Yes
+CUST0082,44,1,89.05,,One Year,Credit Card,Fiber,2,1,48.2,1.0,Yes
+CUST0083,21,32,141.76,5167.8,One Year,UPI,None,2,1,60.0,5.0,Yes
+CUST0084,28,13,25.11,315.09,Month-to-Month,UPI,Fiber,0,0,42.9,1.0,No
+CUST0085,44,30,35.87,927.27,One Year,Debit Card,Fiber,3,1,25.0,4.0,No
+CUST0086,31,23,78.79,1557.17,Month-to-Month,Debit Card,DSL,3,0,118.2,1.0,Yes
+CUST0087,37,51,141.4,6969.07,Month-to-Month,Bank Transfer,Fiber,1,3,85.2,1.0,Yes
+CUST0088,28,59,61.1,3237.23,One Year,Bank Transfer,None,0,3,101.3,4.0,No
+CUST0089,55,56,85.94,4124.46,One Year,Debit Card,DSL,3,3,40.7,2.0,No
+CUST0090,55,19,25.4,519.69,One Year,Credit Card,DSL,3,0,52.5,5.0,No
+CUST0091,53,32,39.28,1241.32,Month-to-Month,Bank Transfer,DSL,4,0,39.6,3.0,No
+CUST0092,25,30,148.26,4166.58,Two Year,Debit Card,Fiber,1,0,48.4,2.0,Yes
+CUST0093,59,29,145.47,4724.97,One Year,Bank Transfer,Fiber,4,1,49.7,1.0,Yes
+CUST0094,48,49,20.64,894.89,One Year,Debit Card,Fiber,1,0,21.6,3.0,No
+CUST0095,27,45,143.74,7353.01,One Year,UPI,Fiber,3,0,37.8,4.0,Yes
+CUST0096,29,29,103.09,2822.76,Two Year,Debit Card,DSL,0,0,72.8,2.0,Yes
+CUST0097,28,30,132.83,4449.22,One Year,UPI,None,0,0,69.7,5.0,No
+CUST0098,32,16,79.12,1305.02,One Year,Bank Transfer,Fiber,4,2,37.5,2.0,Yes
+CUST0099,54,40,87.03,3822.4,Two Year,Debit Card,Fiber,1,1,,2.0,No
+CUST0100,53,19,83.55,1817.95,One Year,Bank Transfer,None,3,0,39.0,3.0,No
+CUST0101,43,18,106.69,1798.51,Month-to-Month,UPI,Fiber,4,3,61.2,4.0,Yes
+CUST0102,44,1,38.15,43.43,One Year,Debit Card,Fiber,0,0,17.2,4.0,No
+CUST0103,57,14,23.9,323.51,Month-to-Month,Bank Transfer,Fiber,0,3,57.4,2.0,No
+CUST0104,55,51,60.03,2956.38,Month-to-Month,UPI,None,1,3,88.0,4.0,No
+CUST0105,60,47,111.61,4994.49,One Year,Bank Transfer,DSL,2,3,30.5,3.0,Yes
+CUST0106,42,50,46.24,2340.72,Two Year,Credit Card,DSL,2,2,82.1,3.0,No
+CUST0107,47,2,107.55,192.78,Two Year,UPI,DSL,1,2,51.4,5.0,Yes
+CUST0108,55,54,146.09,8015.98,Month-to-Month,UPI,Fiber,2,2,42.8,4.0,Yes
+CUST0109,21,28,32.21,913.16,Month-to-Month,UPI,Fiber,1,3,37.3,5.0,No
+CUST0110,55,49,107.44,5678.2,Month-to-Month,Debit Card,DSL,1,1,83.6,1.0,No
+CUST0111,57,50,77.69,4273.32,Two Year,Debit Card,Fiber,1,1,39.0,3.0,No
+CUST0112,34,30,132.86,3914.58,Two Year,Debit Card,DSL,4,2,94.5,2.0,No
+CUST0113,23,38,43.03,1538.18,One Year,Credit Card,None,1,0,89.1,3.0,No
+CUST0114,21,51,110.04,5206.85,Two Year,Credit Card,DSL,2,2,34.5,1.0,Yes
+CUST0115,25,4,128.95,468.55,One Year,UPI,DSL,1,3,40.5,2.0,Yes
+CUST0116,46,1,142.8,123.85,One Year,Credit Card,DSL,3,1,14.1,4.0,Yes
+CUST0117,34,8,108.82,829.41,Month-to-Month,Bank Transfer,DSL,1,1,43.6,4.0,Yes
+CUST0118,59,29,84.63,2285.11,Month-to-Month,UPI,Fiber,4,3,46.4,3.0,No
+CUST0119,47,55,100.32,6289.65,One Year,UPI,Fiber,2,0,76.6,2.0,No
+CUST0120,29,39,132.96,5275.21,One Year,Bank Transfer,Fiber,0,0,91.5,2.0,Yes
+CUST0121,35,3,94.18,269.59,Month-to-Month,UPI,DSL,4,2,64.0,5.0,Yes
+CUST0122,35,32,23.95,784.9,Two Year,Credit Card,Fiber,2,3,73.6,1.0,No
+CUST0123,46,10,141.02,1257.56,Month-to-Month,Debit Card,DSL,1,2,40.5,4.0,Yes
+CUST0124,33,10,109.64,1077.99,Month-to-Month,Bank Transfer,Fiber,1,0,22.4,3.0,Yes
+CUST0125,52,19,107.95,2128.72,One Year,Credit Card,DSL,2,1,51.4,2.0,Yes
+CUST0126,59,46,48.04,2202.48,One Year,Bank Transfer,Fiber,2,1,76.0,4.0,No
+CUST0127,52,34,105.66,3486.58,One Year,Bank Transfer,DSL,1,1,7.8,3.0,No
+CUST0128,24,60,71.2,4904.92,Month-to-Month,UPI,DSL,2,1,47.5,4.0,No
+CUST0129,50,33,104.66,3847.84,Month-to-Month,UPI,Fiber,1,0,15.3,3.0,Yes
+CUST0130,57,23,33.86,807.61,One Year,Credit Card,Fiber,1,1,29.2,4.0,No
+CUST0131,43,55,105.52,5924.39,One Year,Bank Transfer,DSL,5,1,48.5,5.0,No
+CUST0132,59,28,149.92,4349.71,Month-to-Month,UPI,Fiber,1,3,92.3,1.0,Yes
+CUST0133,35,32,26.27,765.31,One Year,UPI,Fiber,6,0,45.1,4.0,No
+CUST0134,49,50,147.03,7120.23,Month-to-Month,Bank Transfer,None,4,0,62.0,1.0,Yes
+CUST0135,56,7,72.9,439.8,One Year,Credit Card,DSL,2,0,,4.0,No
+CUST0136,33,29,133.2,3834.46,Two Year,Credit Card,None,1,0,30.2,2.0,No
+CUST0137,52,8,121.71,986.25,Month-to-Month,Bank Transfer,Fiber,1,1,56.2,5.0,No
+CUST0138,27,1,93.71,86.06,Month-to-Month,Credit Card,Fiber,3,1,22.1,5.0,No
+CUST0139,42,57,116.0,7532.45,One Year,UPI,DSL,2,1,44.8,1.0,Yes
+CUST0140,48,55,134.21,8288.27,One Year,Bank Transfer,DSL,3,0,82.8,2.0,Yes
+CUST0141,22,3,72.54,232.12,One Year,UPI,DSL,2,1,49.2,3.0,No
+CUST0142,26,24,62.51,1515.27,Two Year,Debit Card,Fiber,2,0,51.1,5.0,No
+CUST0143,48,23,106.79,2728.78,Two Year,Debit Card,Fiber,1,2,37.4,2.0,No
+CUST0144,48,59,125.02,6558.87,Two Year,Credit Card,Fiber,3,0,17.9,2.0,No
+CUST0145,40,8,119.1,1035.84,Month-to-Month,Debit Card,Fiber,2,4,39.7,1.0,Yes
+CUST0146,50,54,123.72,5928.92,Month-to-Month,UPI,Fiber,4,0,68.0,2.0,Yes
+CUST0147,31,57,76.63,4753.44,Month-to-Month,Debit Card,Fiber,4,1,54.4,2.0,No
+CUST0148,48,47,126.32,5537.66,Month-to-Month,UPI,None,1,2,22.8,3.0,Yes
+CUST0149,45,37,35.63,1467.45,One Year,Credit Card,Fiber,4,4,14.9,1.0,No
+CUST0150,59,3,90.78,308.62,Month-to-Month,Credit Card,DSL,0,0,30.0,1.0,No
+CUST0151,53,51,20.75,946.75,Two Year,UPI,DSL,3,2,39.9,2.0,No
+CUST0152,21,33,62.2,2029.62,One Year,Debit Card,DSL,3,1,41.4,3.0,No
+CUST0153,47,28,67.64,2167.21,One Year,Credit Card,Fiber,2,0,41.7,4.0,No
+CUST0154,33,47,71.5,3343.77,Month-to-Month,Bank Transfer,DSL,3,1,44.9,5.0,Yes
+CUST0155,23,8,110.41,979.61,Month-to-Month,Credit Card,DSL,1,1,55.3,1.0,No
+CUST0156,59,34,70.51,2461.16,Month-to-Month,Debit Card,DSL,4,1,36.1,3.0,No
+CUST0157,26,35,78.33,2639.01,Month-to-Month,Bank Transfer,DSL,3,1,26.4,3.0,No
+CUST0158,28,32,50.88,1523.53,Month-to-Month,Debit Card,None,0,0,58.5,2.0,No
+CUST0159,47,24,68.52,1498.07,One Year,UPI,DSL,2,1,68.8,5.0,No
+CUST0160,29,14,49.55,748.18,Two Year,Bank Transfer,Fiber,1,2,33.1,1.0,No
+CUST0161,57,32,29.52,912.49,Two Year,Debit Card,DSL,0,2,110.1,4.0,No
+CUST0162,53,56,98.45,5531.85,One Year,Bank Transfer,Fiber,3,0,89.8,2.0,No
+CUST0163,44,46,106.87,4904.7,Month-to-Month,Debit Card,DSL,2,2,23.8,1.0,Yes
+CUST0164,35,43,100.53,4423.01,Two Year,Bank Transfer,Fiber,2,1,15.5,1.0,Yes
+CUST0165,52,16,80.25,1424.82,Two Year,Debit Card,Fiber,4,2,40.8,3.0,Yes
+CUST0166,52,4,69.37,317.5,Month-to-Month,UPI,DSL,4,1,51.3,5.0,No
+CUST0167,44,52,132.23,6685.33,One Year,Bank Transfer,DSL,1,0,109.3,4.0,Yes
+CUST0168,32,37,87.48,3554.79,Month-to-Month,Bank Transfer,Fiber,6,2,107.5,5.0,No
+CUST0169,59,54,82.29,4796.3,Two Year,Bank Transfer,Fiber,0,2,62.0,3.0,No
+CUST0170,22,21,23.33,500.74,Two Year,Bank Transfer,DSL,2,2,36.5,4.0,No
+CUST0171,23,14,64.36,1024.32,Month-to-Month,UPI,Fiber,2,5,78.3,4.0,No
+CUST0172,57,31,69.43,1958.93,Two Year,Bank Transfer,DSL,1,2,47.7,2.0,Yes
+CUST0173,37,55,71.85,3488.52,One Year,Credit Card,Fiber,5,0,20.9,4.0,No
+CUST0174,22,48,95.42,5066.52,Two Year,UPI,DSL,0,2,21.4,1.0,Yes
+CUST0175,22,18,89.37,1579.29,Month-to-Month,Credit Card,DSL,6,3,36.6,5.0,Yes
+CUST0176,48,7,99.03,765.37,Two Year,Bank Transfer,Fiber,2,1,71.9,5.0,No
+CUST0177,43,10,119.43,1335.14,Month-to-Month,Debit Card,Fiber,3,0,24.9,2.0,Yes
+CUST0178,57,7,125.69,764.34,Month-to-Month,Credit Card,Fiber,0,1,36.6,4.0,No
+CUST0179,52,33,113.36,4171.23,Month-to-Month,Bank Transfer,DSL,4,3,89.4,3.0,Yes
+CUST0180,53,23,144.22,3265.63,Two Year,Credit Card,DSL,2,0,54.4,1.0,Yes
+CUST0181,21,21,22.37,471.24,Two Year,Bank Transfer,DSL,3,0,101.6,2.0,Yes
+CUST0182,39,19,45.45,896.35,Two Year,Bank Transfer,Fiber,1,1,57.6,4.0,No
+CUST0183,22,48,20.98,1135.86,Two Year,Bank Transfer,Fiber,2,0,73.2,3.0,No
+CUST0184,46,19,104.17,1693.7,Month-to-Month,Debit Card,Fiber,2,1,37.0,4.0,Yes
+CUST0185,52,36,136.74,4888.44,Month-to-Month,Credit Card,Fiber,3,1,92.4,2.0,Yes
+CUST0186,26,29,51.65,1582.2,Month-to-Month,UPI,DSL,4,0,63.0,3.0,No
+CUST0187,52,60,140.51,8993.87,Month-to-Month,UPI,DSL,2,0,42.1,3.0,No
+CUST0188,24,18,27.83,529.87,Month-to-Month,UPI,DSL,2,1,83.8,3.0,No
+CUST0189,31,2,141.48,251.93,Month-to-Month,UPI,Fiber,4,3,61.6,3.0,Yes
+CUST0190,37,1,65.71,61.76,Month-to-Month,Bank Transfer,None,5,1,44.3,4.0,No
+CUST0191,58,47,33.18,1493.36,Month-to-Month,Credit Card,DSL,1,2,58.5,3.0,No
+CUST0192,44,5,83.16,453.78,Month-to-Month,Credit Card,None,2,1,27.8,4.0,No
+CUST0193,25,20,53.38,996.74,Month-to-Month,Debit Card,DSL,1,0,78.4,3.0,No
+CUST0194,54,11,57.03,572.88,Two Year,Credit Card,Fiber,4,0,108.4,3.0,Yes
+CUST0195,26,42,59.95,2863.44,One Year,Credit Card,Fiber,4,1,17.5,2.0,No
+CUST0196,42,2,124.39,,Two Year,Credit Card,DSL,2,0,32.9,4.0,No
+CUST0197,31,3,90.09,310.63,Month-to-Month,Debit Card,Fiber,1,1,31.4,4.0,No
+CUST0198,36,23,60.47,1464.59,Month-to-Month,UPI,Fiber,1,1,65.0,5.0,No
+CUST0199,53,55,99.34,6002.1,One Year,Credit Card,DSL,4,0,50.0,2.0,No
+CUST0200,29,12,113.1,1273.58,Month-to-Month,Debit Card,DSL,1,1,35.6,4.0,No
+CUST0201,26,20,55.44,947.24,Month-to-Month,Debit Card,DSL,8,1,38.5,2.0,Yes
+CUST0202,36,5,73.76,395.12,Month-to-Month,Bank Transfer,Fiber,1,1,33.9,2.0,Yes
+CUST0203,49,37,35.85,1459.42,Month-to-Month,Debit Card,Fiber,1,2,60.9,2.0,No
+CUST0204,23,38,43.55,1774.29,Month-to-Month,UPI,DSL,2,1,49.6,1.0,Yes
+CUST0205,40,30,108.55,,Month-to-Month,Credit Card,None,1,1,37.6,4.0,No
+CUST0206,56,9,43.59,422.14,One Year,Debit Card,DSL,3,1,34.2,2.0,No
+CUST0207,39,34,88.27,3243.31,Month-to-Month,UPI,None,2,2,84.6,1.0,Yes
+CUST0208,46,53,112.18,6228.32,Month-to-Month,Debit Card,DSL,2,2,77.4,1.0,No
+CUST0209,23,44,33.89,1610.21,Two Year,Debit Card,DSL,1,0,61.3,3.0,No
+CUST0210,39,35,93.75,3621.77,Month-to-Month,Debit Card,Fiber,2,3,73.4,3.0,Yes
+CUST0211,40,52,53.35,2868.75,Month-to-Month,Debit Card,DSL,0,0,21.0,4.0,No
+CUST0212,52,58,145.18,7381.2,Two Year,Debit Card,DSL,1,1,24.8,3.0,No
+CUST0213,27,22,82.86,1816.15,Month-to-Month,UPI,DSL,0,0,23.3,4.0,No
+CUST0214,53,44,124.78,4794.67,Month-to-Month,Credit Card,Fiber,5,0,45.0,1.0,Yes
+CUST0215,60,24,91.53,2135.79,Month-to-Month,Credit Card,DSL,4,1,74.6,1.0,Yes
+CUST0216,59,17,25.64,423.73,Month-to-Month,Credit Card,Fiber,3,0,35.9,4.0,No
+CUST0217,38,10,102.31,889.9,One Year,Credit Card,DSL,1,1,79.7,3.0,Yes
+CUST0218,60,30,143.68,,Two Year,UPI,Fiber,2,0,32.8,3.0,No
+CUST0219,21,56,98.21,4857.93,Month-to-Month,Bank Transfer,DSL,1,0,41.8,4.0,No
+CUST0220,31,59,126.49,8153.01,One Year,Bank Transfer,Fiber,6,1,35.7,5.0,Yes
+CUST0221,48,46,134.95,7041.43,Month-to-Month,UPI,Fiber,0,0,40.2,3.0,No
+CUST0222,45,23,49.65,995.43,Month-to-Month,UPI,Fiber,3,2,42.5,2.0,No
+CUST0223,43,32,47.57,1730.08,One Year,Debit Card,DSL,2,1,15.3,3.0,No
+CUST0224,51,17,99.43,1701.76,Month-to-Month,Debit Card,Fiber,3,1,53.6,5.0,No
+CUST0225,50,50,73.43,3450.73,Month-to-Month,Debit Card,Fiber,2,0,42.0,1.0,No
+CUST0226,55,51,129.18,5751.87,Month-to-Month,Credit Card,DSL,2,1,92.3,1.0,Yes
+CUST0227,27,17,137.0,2329.44,Month-to-Month,Debit Card,Fiber,1,2,59.8,1.0,Yes
+CUST0228,36,14,65.94,1004.73,Month-to-Month,Bank Transfer,None,3,1,52.5,3.0,No
+CUST0229,46,9,50.79,485.51,Two Year,Credit Card,None,3,0,89.6,1.0,No
+CUST0230,22,40,121.47,4203.19,Month-to-Month,Debit Card,DSL,1,2,85.1,5.0,No
+CUST0231,21,2,55.72,97.16,Month-to-Month,Credit Card,Fiber,1,4,94.4,5.0,Yes
+CUST0232,32,45,126.94,5545.85,Month-to-Month,Bank Transfer,DSL,3,2,33.9,3.0,Yes
+CUST0233,25,25,75.09,1761.96,One Year,Debit Card,Fiber,1,0,22.9,2.0,No
+CUST0234,57,39,106.78,3830.08,One Year,Bank Transfer,Fiber,0,4,15.3,3.0,No
+CUST0235,52,9,32.42,272.61,One Year,Bank Transfer,Fiber,1,0,72.9,1.0,No
+CUST0236,29,54,101.1,5956.45,One Year,Bank Transfer,None,3,0,13.8,3.0,No
+CUST0237,55,22,78.73,1955.09,Two Year,Debit Card,Fiber,4,0,49.9,5.0,No
+CUST0238,39,43,96.26,4021.34,Month-to-Month,UPI,DSL,3,3,,3.0,Yes
+CUST0239,36,46,41.84,2159.13,Month-to-Month,Debit Card,DSL,2,0,78.2,3.0,No
+CUST0240,23,4,115.79,438.36,Two Year,Bank Transfer,Fiber,2,0,57.4,2.0,Yes
+CUST0241,40,26,132.16,3411.87,Two Year,Debit Card,Fiber,2,0,78.0,5.0,No
+CUST0242,44,58,48.18,2564.76,Two Year,Bank Transfer,None,3,1,50.5,4.0,No
+CUST0243,53,29,32.44,980.41,Month-to-Month,UPI,DSL,3,0,26.4,4.0,No
+CUST0244,44,45,23.07,1187.33,Month-to-Month,Credit Card,DSL,1,1,35.2,5.0,No
+CUST0245,31,34,103.46,3626.86,Month-to-Month,UPI,Fiber,4,1,69.3,4.0,No
+CUST0246,28,23,98.92,2178.11,One Year,UPI,Fiber,1,1,17.4,1.0,No
+CUST0247,56,37,91.07,3519.02,Month-to-Month,Credit Card,Fiber,0,1,33.6,4.0,Yes
+CUST0248,58,11,50.15,489.25,Month-to-Month,Debit Card,Fiber,2,2,31.1,1.0,No
+CUST0249,60,6,70.82,474.46,Two Year,Credit Card,Fiber,2,2,42.8,5.0,No
+CUST0250,40,18,97.28,1752.66,Month-to-Month,Debit Card,DSL,2,0,60.8,4.0,No
+CUST0251,55,21,84.58,1749.19,Two Year,Debit Card,Fiber,3,1,77.0,4.0,No
+CUST0252,45,42,148.41,6393.78,Month-to-Month,Bank Transfer,Fiber,3,0,20.2,1.0,No
+CUST0253,55,36,37.74,1409.5,Month-to-Month,Bank Transfer,DSL,3,1,27.4,1.0,No
+CUST0254,45,41,110.37,3943.83,Month-to-Month,Credit Card,DSL,2,0,21.6,3.0,Yes
+CUST0255,49,38,72.56,2908.34,One Year,UPI,Fiber,5,2,43.7,2.0,Yes
+CUST0256,38,34,75.67,2373.59,Month-to-Month,Credit Card,DSL,5,2,23.2,4.0,No
+CUST0257,38,17,113.29,2049.55,Month-to-Month,Debit Card,Fiber,2,1,53.4,2.0,Yes
+CUST0258,22,37,110.02,4464.63,Two Year,Bank Transfer,Fiber,1,3,24.9,2.0,Yes
+CUST0259,55,25,148.86,4060.85,Month-to-Month,Credit Card,Fiber,1,2,82.2,4.0,Yes
+CUST0260,36,38,36.69,1416.18,One Year,Credit Card,DSL,1,2,15.6,1.0,No
+CUST0261,56,58,33.53,1956.51,One Year,Bank Transfer,Fiber,2,2,27.9,3.0,Yes
+CUST0262,53,12,114.16,1223.15,Month-to-Month,Bank Transfer,Fiber,5,1,94.9,5.0,No
+CUST0263,24,23,95.19,2370.22,One Year,Bank Transfer,Fiber,1,2,49.2,4.0,Yes
+CUST0264,53,53,55.64,2746.69,Month-to-Month,Debit Card,DSL,2,1,34.0,4.0,No
+CUST0265,34,42,30.32,1272.18,One Year,Bank Transfer,Fiber,2,1,143.2,5.0,No
+CUST0266,41,22,31.14,640.74,Month-to-Month,UPI,Fiber,2,1,38.5,2.0,No
+CUST0267,40,21,136.24,2546.75,One Year,Credit Card,Fiber,3,0,59.6,3.0,Yes
+CUST0268,28,27,44.94,1260.54,Month-to-Month,Bank Transfer,Fiber,1,0,28.6,2.0,Yes
+CUST0269,27,57,62.04,3063.48,One Year,Bank Transfer,DSL,2,0,25.9,5.0,No
+CUST0270,23,31,49.47,1647.96,Month-to-Month,Debit Card,DSL,0,2,61.4,5.0,No
+CUST0271,37,6,66.15,375.18,Month-to-Month,Debit Card,Fiber,3,3,99.2,3.0,No
+CUST0272,53,27,29.03,666.27,Month-to-Month,Credit Card,Fiber,3,1,34.8,5.0,No
+CUST0273,32,40,87.48,3510.88,Month-to-Month,UPI,Fiber,3,2,24.8,5.0,No
+CUST0274,42,34,28.79,845.79,Two Year,Credit Card,Fiber,2,1,72.3,3.0,No
+CUST0275,42,12,124.05,1388.64,Month-to-Month,Bank Transfer,Fiber,5,2,34.9,4.0,Yes
+CUST0276,50,45,50.38,2407.87,Two Year,UPI,DSL,4,1,53.8,2.0,No
+CUST0277,58,57,90.2,4466.88,Two Year,UPI,None,0,3,34.2,4.0,Yes
+CUST0278,58,53,134.41,7848.94,One Year,UPI,None,1,0,37.3,4.0,No
+CUST0279,28,7,104.61,623.27,Month-to-Month,UPI,DSL,2,0,27.3,2.0,Yes
+CUST0280,47,10,89.28,824.99,Month-to-Month,Credit Card,DSL,3,0,62.2,4.0,No
+CUST0281,47,45,62.16,2999.36,One Year,Debit Card,DSL,1,1,54.6,3.0,No
+CUST0282,54,17,63.29,1016.63,Month-to-Month,Debit Card,Fiber,3,2,53.6,2.0,Yes
+CUST0283,41,26,107.03,2450.43,Month-to-Month,Bank Transfer,DSL,2,0,30.3,1.0,No
+CUST0284,50,21,149.24,3002.63,One Year,Debit Card,Fiber,2,0,52.2,4.0,No
+CUST0285,53,28,106.04,2764.6,Two Year,Debit Card,Fiber,2,1,105.9,5.0,No
+CUST0286,48,58,92.51,5917.23,One Year,Debit Card,DSL,1,0,24.9,2.0,No
+CUST0287,53,46,114.98,4992.91,Month-to-Month,Debit Card,Fiber,4,2,28.7,1.0,Yes
+CUST0288,25,2,80.48,174.91,One Year,Bank Transfer,Fiber,3,1,29.6,5.0,No
+CUST0289,39,60,27.82,1865.43,Month-to-Month,Credit Card,None,1,2,47.1,1.0,No
+CUST0290,24,54,93.1,4927.58,Month-to-Month,UPI,Fiber,0,1,23.8,4.0,No
+CUST0291,55,43,144.49,6977.17,Two Year,Debit Card,Fiber,4,0,57.5,5.0,No
+CUST0292,37,1,42.79,41.22,Month-to-Month,Credit Card,None,1,1,14.6,4.0,No
+CUST0293,48,51,109.7,6373.61,Month-to-Month,Debit Card,DSL,1,1,66.0,5.0,No
+CUST0294,50,53,46.12,2143.18,Month-to-Month,Debit Card,DSL,5,1,53.1,2.0,No
+CUST0295,49,36,89.66,3408.86,Two Year,UPI,Fiber,1,1,104.7,3.0,No
+CUST0296,26,51,32.57,1657.99,One Year,UPI,Fiber,1,0,25.5,3.0,No
+CUST0297,55,26,78.55,1973.46,One Year,UPI,DSL,2,3,73.7,1.0,No
+CUST0298,57,29,118.3,3567.29,One Year,Debit Card,DSL,2,0,42.0,5.0,No
+CUST0299,44,21,65.18,1452.49,Month-to-Month,Debit Card,DSL,2,2,37.8,4.0,No
+CUST0300,49,11,106.44,996.75,Month-to-Month,Debit Card,Fiber,6,1,24.8,2.0,Yes
+CUST0301,51,40,123.41,4443.18,Month-to-Month,UPI,Fiber,2,5,34.5,2.0,Yes
+CUST0302,55,11,140.53,1644.63,Month-to-Month,Bank Transfer,None,2,1,35.3,2.0,Yes
+CUST0303,53,36,50.5,1908.75,Month-to-Month,Credit Card,Fiber,2,1,18.4,3.0,No
+CUST0304,41,49,71.91,4016.24,Two Year,Bank Transfer,DSL,1,1,52.9,4.0,No
+CUST0305,52,59,39.81,2532.73,Month-to-Month,Debit Card,Fiber,0,2,49.4,2.0,No
+CUST0306,43,39,149.02,6597.72,Month-to-Month,Debit Card,DSL,1,1,59.5,2.0,No
+CUST0307,53,40,140.51,5961.91,Month-to-Month,Bank Transfer,None,3,1,32.1,1.0,Yes
+CUST0308,23,35,90.19,2965.41,Month-to-Month,Debit Card,DSL,1,1,67.2,5.0,No
+CUST0309,38,54,129.46,6163.19,Two Year,Credit Card,Fiber,1,0,84.3,5.0,No
+CUST0310,45,34,87.72,3234.64,Month-to-Month,Debit Card,DSL,0,1,39.3,5.0,No
+CUST0311,51,55,101.07,5799.24,Month-to-Month,Credit Card,DSL,2,1,25.8,1.0,No
+CUST0312,23,47,31.59,1283.48,One Year,Bank Transfer,Fiber,4,1,45.8,3.0,No
+CUST0313,60,24,118.19,2717.47,Month-to-Month,Bank Transfer,DSL,3,1,44.7,1.0,Yes
+CUST0314,44,54,36.6,2247.25,Month-to-Month,Debit Card,DSL,2,1,40.4,2.0,No
+CUST0315,52,22,127.39,2802.92,Month-to-Month,Credit Card,DSL,3,2,59.5,4.0,Yes
+CUST0316,42,5,121.66,596.02,One Year,Debit Card,DSL,3,0,36.8,2.0,Yes
+CUST0317,43,56,112.14,6200.15,Two Year,UPI,Fiber,2,0,24.7,2.0,Yes
+CUST0318,22,33,24.7,743.91,One Year,UPI,Fiber,3,0,48.0,4.0,No
+CUST0319,47,58,59.41,3310.06,Month-to-Month,UPI,Fiber,0,0,61.0,5.0,No
+CUST0320,22,36,54.2,1874.99,Two Year,UPI,None,2,0,63.5,1.0,No
+CUST0321,46,47,66.82,2718.79,Month-to-Month,Debit Card,DSL,2,1,35.5,3.0,No
+CUST0322,37,20,31.39,678.19,Month-to-Month,UPI,DSL,4,1,51.5,2.0,No
+CUST0323,60,19,141.8,2626.71,Month-to-Month,Credit Card,Fiber,2,2,85.5,2.0,Yes
+CUST0324,53,35,91.99,3530.84,Month-to-Month,Bank Transfer,Fiber,2,0,85.1,3.0,No
+CUST0325,29,52,59.72,3431.84,Month-to-Month,Bank Transfer,DSL,2,0,74.8,1.0,No
+CUST0326,59,43,71.61,2813.18,One Year,UPI,Fiber,2,0,17.7,2.0,Yes
+CUST0327,49,17,78.14,1391.09,Two Year,UPI,Fiber,1,1,37.0,3.0,No
+CUST0328,46,59,98.08,5738.6,Month-to-Month,UPI,DSL,2,0,82.4,2.0,No
+CUST0329,55,45,87.04,4363.5,Month-to-Month,Debit Card,Fiber,3,0,17.7,5.0,No
+CUST0330,45,43,139.52,5487.75,Month-to-Month,Bank Transfer,Fiber,1,2,42.9,5.0,Yes
+CUST0331,44,34,84.61,3030.2,Month-to-Month,UPI,Fiber,3,1,31.8,2.0,Yes
+CUST0332,33,9,148.98,1384.16,One Year,Credit Card,Fiber,4,0,52.1,2.0,Yes
+CUST0333,27,26,130.69,3189.27,Month-to-Month,UPI,None,1,1,11.6,5.0,No
+CUST0334,56,2,47.11,83.95,Two Year,Bank Transfer,Fiber,4,1,78.5,2.0,Yes
+CUST0335,40,53,140.98,7811.85,Month-to-Month,UPI,Fiber,3,1,43.9,1.0,Yes
+CUST0336,21,9,35.13,338.8,Month-to-Month,Bank Transfer,Fiber,2,1,23.7,1.0,Yes
+CUST0337,28,9,126.27,1073.57,Month-to-Month,UPI,DSL,1,1,29.4,4.0,Yes
+CUST0338,36,40,69.48,2899.96,Month-to-Month,Credit Card,Fiber,2,1,53.0,1.0,No
+CUST0339,34,17,134.14,2208.64,Month-to-Month,UPI,DSL,3,0,28.1,2.0,Yes
+CUST0340,32,1,132.85,,One Year,Credit Card,Fiber,2,0,97.6,2.0,Yes
+CUST0341,43,25,124.77,2837.78,Month-to-Month,Credit Card,Fiber,1,3,41.3,3.0,No
+CUST0342,35,43,122.7,5893.74,One Year,UPI,Fiber,1,2,88.8,1.0,No
+CUST0343,48,40,59.61,2232.33,Month-to-Month,Credit Card,DSL,4,1,48.0,5.0,No
+CUST0344,54,42,30.52,1231.0,Month-to-Month,Debit Card,DSL,2,3,62.2,5.0,No
+CUST0345,22,25,72.39,1569.83,Month-to-Month,UPI,Fiber,0,0,60.3,4.0,No
+CUST0346,52,39,42.56,1466.39,Two Year,UPI,DSL,4,2,34.0,3.0,No
+CUST0347,43,35,110.34,3880.28,Month-to-Month,Credit Card,None,0,0,62.6,5.0,No
+CUST0348,42,3,64.99,181.38,One Year,Credit Card,Fiber,1,0,35.6,4.0,No
+CUST0349,45,50,146.83,8080.38,Month-to-Month,UPI,DSL,3,1,16.7,1.0,Yes
+CUST0350,42,37,103.33,3266.58,One Year,Debit Card,Fiber,3,1,39.4,3.0,Yes
+CUST0351,42,44,126.92,5381.92,Month-to-Month,Credit Card,None,1,1,21.8,3.0,No
+CUST0352,26,44,37.23,1558.19,One Year,Credit Card,DSL,2,0,34.9,2.0,No
+CUST0353,35,51,132.06,5763.85,One Year,Bank Transfer,None,2,1,43.2,1.0,Yes
+CUST0354,57,30,139.96,3725.64,Two Year,Debit Card,DSL,3,0,26.3,3.0,Yes
+CUST0355,53,38,83.32,3084.13,Month-to-Month,Debit Card,Fiber,3,0,58.1,4.0,No
+CUST0356,28,34,98.81,3352.35,Month-to-Month,UPI,None,5,0,35.3,5.0,Yes
+CUST0357,25,12,119.43,1392.01,Month-to-Month,Debit Card,Fiber,1,2,21.4,1.0,Yes
+CUST0358,59,19,42.73,819.41,Two Year,UPI,Fiber,3,2,26.5,1.0,Yes
+CUST0359,24,37,85.33,3247.32,Month-to-Month,Bank Transfer,DSL,2,2,46.5,3.0,No
+CUST0360,26,44,71.83,2695.85,One Year,Debit Card,DSL,2,0,38.5,3.0,No
+CUST0361,52,59,39.03,,Month-to-Month,Credit Card,None,3,0,51.1,3.0,No
+CUST0362,50,59,67.78,4555.08,Month-to-Month,Bank Transfer,Fiber,1,0,46.7,4.0,No
+CUST0363,55,49,28.86,1422.21,Month-to-Month,UPI,DSL,4,2,25.1,2.0,No
+CUST0364,60,17,23.36,418.27,Two Year,Bank Transfer,DSL,1,3,31.4,3.0,No
+CUST0365,36,10,37.57,354.5,One Year,UPI,Fiber,0,1,67.0,2.0,No
+CUST0366,33,57,145.2,8956.7,Two Year,Bank Transfer,Fiber,2,0,27.5,2.0,No
+CUST0367,50,55,91.44,5440.97,Month-to-Month,UPI,Fiber,0,0,89.8,1.0,No
+CUST0368,39,49,145.56,7178.01,One Year,Debit Card,Fiber,5,2,18.8,5.0,Yes
+CUST0369,37,47,76.22,4093.91,One Year,Credit Card,None,0,2,65.9,5.0,No
+CUST0370,39,12,60.54,644.87,Month-to-Month,UPI,DSL,3,0,41.7,4.0,No
+CUST0371,48,16,85.8,1173.86,Two Year,Bank Transfer,DSL,2,2,25.2,4.0,No
+CUST0372,46,24,77.14,2001.41,Two Year,UPI,None,1,2,45.9,5.0,No
+CUST0373,57,19,33.74,700.13,Two Year,UPI,Fiber,2,0,28.1,5.0,No
+CUST0374,46,8,103.31,732.31,One Year,UPI,DSL,1,0,32.5,1.0,No
+CUST0375,43,31,48.08,1385.66,Month-to-Month,Bank Transfer,Fiber,2,1,35.8,1.0,Yes
+CUST0376,29,21,100.55,1805.94,Month-to-Month,Credit Card,DSL,5,2,63.3,5.0,Yes
+CUST0377,32,17,104.53,1666.82,Two Year,Debit Card,Fiber,2,3,31.1,3.0,Yes
+CUST0378,21,23,39.76,989.41,Month-to-Month,Credit Card,None,2,3,49.5,3.0,No
+CUST0379,21,37,27.98,1040.84,One Year,UPI,Fiber,3,1,64.5,1.0,No
+CUST0380,54,54,121.5,6262.01,One Year,Bank Transfer,Fiber,2,0,45.2,2.0,No
+CUST0381,52,16,79.77,1227.21,One Year,Credit Card,DSL,4,2,53.4,5.0,No
+CUST0382,45,6,27.56,140.62,Two Year,UPI,Fiber,1,2,43.1,4.0,No
+CUST0383,60,8,149.33,1122.89,Month-to-Month,Debit Card,DSL,3,1,57.5,3.0,Yes
+CUST0384,21,25,27.51,717.97,Month-to-Month,Debit Card,Fiber,1,1,21.1,2.0,No
+CUST0385,36,18,110.35,2268.87,Month-to-Month,Debit Card,DSL,4,3,85.8,3.0,Yes
+CUST0386,59,25,147.88,4081.93,Month-to-Month,UPI,Fiber,1,0,30.1,2.0,No
+CUST0387,25,12,51.09,525.46,Month-to-Month,Bank Transfer,Fiber,4,1,41.9,5.0,No
+CUST0388,42,15,38.49,646.38,Month-to-Month,Credit Card,Fiber,2,0,13.6,5.0,No
+CUST0389,49,59,35.78,2290.37,Two Year,Debit Card,Fiber,1,1,33.3,5.0,No
+CUST0390,23,26,59.43,1675.15,Two Year,UPI,Fiber,1,0,50.5,1.0,No
+CUST0391,32,41,33.14,1341.62,Month-to-Month,UPI,Fiber,1,1,91.6,2.0,No
+CUST0392,46,45,109.98,4797.67,Month-to-Month,Credit Card,Fiber,2,2,58.8,4.0,Yes
+CUST0393,36,26,28.1,687.4,Two Year,Debit Card,Fiber,1,2,34.7,4.0,No
+CUST0394,57,47,86.22,3524.35,Month-to-Month,UPI,DSL,4,0,17.8,5.0,No
+CUST0395,42,32,149.57,4396.02,Month-to-Month,Credit Card,DSL,3,2,,4.0,No
+CUST0396,49,10,125.82,1162.55,Month-to-Month,Bank Transfer,Fiber,0,3,33.9,3.0,Yes
+CUST0397,34,16,99.98,1592.04,One Year,Bank Transfer,DSL,3,0,50.5,2.0,Yes
+CUST0398,48,7,59.81,449.75,Month-to-Month,Bank Transfer,DSL,0,1,34.8,2.0,No
+CUST0399,25,17,101.11,1705.36,Two Year,Debit Card,Fiber,2,4,53.6,2.0,Yes
+CUST0400,50,23,88.52,1765.9,Month-to-Month,Credit Card,DSL,3,1,79.2,3.0,No
+CUST0401,25,26,75.39,2229.34,Month-to-Month,Credit Card,Fiber,2,3,62.9,1.0,Yes
+CUST0402,32,21,36.99,879.96,Month-to-Month,UPI,DSL,3,2,38.1,,No
+CUST0403,36,22,135.26,3230.31,Month-to-Month,UPI,Fiber,0,2,81.9,2.0,Yes
+CUST0404,46,58,78.47,5222.11,One Year,UPI,DSL,0,2,101.6,2.0,Yes
+CUST0405,46,7,45.3,321.33,One Year,Credit Card,DSL,2,1,70.9,2.0,No
+CUST0406,41,14,67.81,1081.14,One Year,UPI,Fiber,3,0,35.4,4.0,No
+CUST0407,59,15,73.84,966.58,One Year,Credit Card,Fiber,3,1,65.9,1.0,Yes
+CUST0408,56,53,127.58,6489.27,Two Year,Credit Card,None,3,4,70.6,3.0,Yes
+CUST0409,53,7,115.37,741.06,Two Year,Bank Transfer,Fiber,3,1,38.5,2.0,Yes
+CUST0410,50,9,120.01,981.53,One Year,UPI,DSL,0,2,101.6,5.0,Yes
+CUST0411,57,51,21.43,975.16,Month-to-Month,Bank Transfer,None,1,1,77.4,1.0,No
+CUST0412,43,48,74.1,3687.42,Month-to-Month,Debit Card,DSL,3,2,39.5,,No
+CUST0413,30,8,82.57,716.31,Month-to-Month,Debit Card,DSL,1,2,35.3,1.0,Yes
+CUST0414,25,50,22.49,1150.91,One Year,Debit Card,DSL,4,0,69.8,2.0,No
+CUST0415,56,59,53.78,,Month-to-Month,Credit Card,DSL,2,1,115.1,1.0,No
+CUST0416,54,23,118.84,2988.44,Month-to-Month,Credit Card,Fiber,4,0,21.9,1.0,Yes
+CUST0417,51,29,37.82,1141.51,Two Year,Credit Card,Fiber,3,4,55.0,2.0,No
+CUST0418,30,18,89.59,1558.52,Two Year,UPI,Fiber,4,0,65.3,5.0,No
+CUST0419,39,31,47.98,1565.08,Two Year,Bank Transfer,None,2,1,78.8,5.0,No
+CUST0420,52,30,21.58,600.77,Month-to-Month,Credit Card,DSL,4,1,65.7,4.0,No
+CUST0421,21,52,51.36,,One Year,Bank Transfer,Fiber,0,0,34.1,5.0,No
+CUST0422,25,39,146.86,6444.89,Month-to-Month,Bank Transfer,DSL,2,1,20.5,5.0,No
+CUST0423,24,35,124.2,4073.8,Month-to-Month,Bank Transfer,Fiber,2,0,37.4,1.0,No
+CUST0424,36,18,144.74,2581.86,Month-to-Month,UPI,Fiber,2,1,64.6,4.0,Yes
+CUST0425,44,59,83.42,5497.84,Month-to-Month,UPI,DSL,3,0,32.2,2.0,Yes
+CUST0426,36,42,34.27,1529.03,Month-to-Month,Debit Card,Fiber,2,1,85.0,2.0,No
+CUST0427,22,39,91.23,3090.67,Two Year,Debit Card,DSL,4,1,41.2,,No
+CUST0428,48,17,79.07,1201.96,Month-to-Month,Bank Transfer,Fiber,3,1,31.1,4.0,No
+CUST0429,52,14,129.77,1548.54,One Year,Debit Card,DSL,2,1,58.0,1.0,Yes
+CUST0430,47,31,32.75,1055.13,Month-to-Month,Bank Transfer,DSL,2,3,39.0,3.0,No
+CUST0431,40,24,83.47,1971.83,Month-to-Month,UPI,Fiber,4,0,34.8,3.0,No
+CUST0432,44,35,39.51,1231.13,Month-to-Month,UPI,None,1,1,108.2,2.0,No
+CUST0433,32,44,62.21,3113.28,Month-to-Month,UPI,DSL,2,3,32.1,5.0,No
+CUST0434,55,60,115.86,7013.45,One Year,Credit Card,Fiber,3,3,36.7,1.0,No
+CUST0435,53,45,81.88,3399.29,Month-to-Month,Bank Transfer,Fiber,1,0,58.5,4.0,No
+CUST0436,53,34,68.87,2342.0,Month-to-Month,UPI,DSL,1,1,84.3,3.0,No
+CUST0437,57,3,71.28,225.36,Month-to-Month,Bank Transfer,Fiber,6,2,55.7,1.0,Yes
+CUST0438,32,37,79.73,2574.98,Month-to-Month,Debit Card,Fiber,1,1,46.4,2.0,No
+CUST0439,23,43,122.05,4893.43,Two Year,Debit Card,Fiber,3,0,114.5,3.0,Yes
+CUST0440,21,40,135.97,5939.66,Month-to-Month,UPI,Fiber,2,0,35.8,3.0,Yes
+CUST0441,53,26,144.19,3703.58,One Year,Bank Transfer,DSL,1,1,35.9,2.0,Yes
+CUST0442,60,55,122.3,6820.49,One Year,UPI,Fiber,2,0,32.3,2.0,No
+CUST0443,30,23,61.0,1374.72,Two Year,Debit Card,Fiber,6,1,54.0,2.0,No
+CUST0444,49,44,109.46,4157.23,Two Year,UPI,Fiber,2,1,27.3,1.0,Yes
+CUST0445,33,39,76.89,2698.01,One Year,Bank Transfer,Fiber,2,0,23.5,1.0,No
+CUST0446,32,15,53.11,783.63,One Year,Debit Card,None,5,0,36.7,1.0,No
+CUST0447,51,56,129.31,,Two Year,Credit Card,Fiber,1,1,17.3,5.0,Yes
+CUST0448,22,49,25.0,1059.62,Month-to-Month,Debit Card,None,0,3,50.5,3.0,No
+CUST0449,55,4,137.23,605.51,Month-to-Month,Credit Card,Fiber,2,0,54.0,1.0,Yes
+CUST0450,43,29,79.99,2654.58,Month-to-Month,UPI,Fiber,2,4,58.7,5.0,Yes
+CUST0451,37,22,102.84,2461.45,Two Year,UPI,DSL,1,0,67.4,3.0,Yes
+CUST0452,46,25,105.72,2923.52,Two Year,Bank Transfer,Fiber,1,0,37.2,1.0,No
+CUST0453,28,13,136.37,1635.58,Month-to-Month,Credit Card,DSL,2,0,79.5,2.0,Yes
+CUST0454,49,18,102.77,2105.49,One Year,UPI,None,2,1,75.6,4.0,No
+CUST0455,46,33,99.81,2994.26,Month-to-Month,Credit Card,Fiber,3,2,25.2,1.0,Yes
+CUST0456,30,16,28.66,520.66,Month-to-Month,UPI,Fiber,3,2,43.1,4.0,Yes
+CUST0457,46,45,87.39,4516.32,Two Year,Debit Card,DSL,1,0,10.4,1.0,No
+CUST0458,54,42,39.52,1765.27,Month-to-Month,UPI,Fiber,1,1,80.1,2.0,No
+CUST0459,27,44,115.87,5834.18,Month-to-Month,Bank Transfer,Fiber,4,0,66.8,4.0,No
+CUST0460,24,2,86.59,176.79,One Year,Debit Card,Fiber,0,1,89.2,5.0,No
+CUST0461,31,55,108.43,5533.45,One Year,Bank Transfer,Fiber,0,1,18.7,2.0,No
+CUST0462,49,35,25.42,872.88,Month-to-Month,Debit Card,DSL,1,2,56.5,4.0,No
+CUST0463,56,42,31.02,1339.41,One Year,Credit Card,Fiber,2,0,33.5,4.0,No
+CUST0464,45,34,113.12,3353.49,Month-to-Month,Bank Transfer,Fiber,2,0,13.5,2.0,Yes
+CUST0465,41,30,29.37,913.44,Month-to-Month,UPI,DSL,2,1,71.7,2.0,No
+CUST0466,56,59,29.26,1975.54,Month-to-Month,Credit Card,Fiber,0,2,22.2,2.0,No
+CUST0467,30,55,21.57,1076.06,One Year,UPI,Fiber,4,2,52.9,3.0,No
+CUST0468,57,13,144.35,2041.27,Month-to-Month,Debit Card,DSL,3,1,33.3,5.0,No
+CUST0469,29,13,115.88,1690.78,Two Year,Debit Card,Fiber,0,2,48.3,1.0,Yes
+CUST0470,44,18,65.92,1344.5,Two Year,UPI,DSL,1,1,67.8,4.0,No
+CUST0471,55,32,58.55,2132.23,Two Year,UPI,DSL,3,0,48.4,1.0,Yes
+CUST0472,55,32,65.46,2108.21,Month-to-Month,Credit Card,Fiber,3,2,27.0,2.0,Yes
+CUST0473,56,35,120.7,4829.42,Two Year,UPI,DSL,1,1,109.5,5.0,No
+CUST0474,38,59,105.98,6735.49,Month-to-Month,Bank Transfer,Fiber,2,3,37.5,5.0,No
+CUST0475,59,39,44.08,1544.63,Month-to-Month,Bank Transfer,Fiber,3,1,29.9,3.0,No
+CUST0476,52,46,42.63,1947.39,Month-to-Month,UPI,DSL,1,1,42.5,2.0,Yes
+CUST0477,44,52,32.79,1816.76,Month-to-Month,Bank Transfer,DSL,0,2,18.9,4.0,No
+CUST0478,43,29,105.84,2836.71,One Year,UPI,Fiber,2,0,31.4,3.0,No
+CUST0479,52,49,119.37,6095.87,Month-to-Month,Credit Card,DSL,4,0,38.7,2.0,No
+CUST0480,57,29,54.46,1658.28,Month-to-Month,Bank Transfer,None,2,2,50.4,3.0,No
+CUST0481,32,53,22.72,1082.31,One Year,Bank Transfer,None,3,2,45.5,1.0,No
+CUST0482,33,44,30.68,1376.28,Month-to-Month,UPI,DSL,2,3,56.6,2.0,No
+CUST0483,43,57,145.82,8989.05,One Year,Bank Transfer,Fiber,5,0,43.3,4.0,Yes
+CUST0484,45,16,58.41,934.25,Month-to-Month,Debit Card,Fiber,3,1,75.2,4.0,Yes
+CUST0485,55,56,120.0,5736.4,Two Year,Credit Card,None,2,0,61.5,2.0,No
+CUST0486,50,44,101.21,3797.33,Two Year,Credit Card,Fiber,3,1,54.4,3.0,Yes
+CUST0487,37,47,69.65,3133.14,Month-to-Month,Bank Transfer,DSL,0,1,81.3,5.0,No
+CUST0488,40,57,46.74,3004.82,Month-to-Month,Bank Transfer,Fiber,1,4,81.3,2.0,Yes
+CUST0489,45,10,35.78,328.68,Month-to-Month,Debit Card,Fiber,0,2,47.2,4.0,No
+CUST0490,42,30,99.95,3119.37,Two Year,Debit Card,Fiber,3,0,36.5,1.0,Yes
+CUST0491,33,25,120.7,2765.91,Month-to-Month,Bank Transfer,None,1,0,49.4,4.0,No
+CUST0492,39,39,103.71,3828.3,Month-to-Month,Bank Transfer,Fiber,4,0,41.4,5.0,No
+CUST0493,56,20,88.94,1964.53,Month-to-Month,Debit Card,DSL,3,0,35.8,4.0,Yes
+CUST0494,32,5,25.45,135.99,Month-to-Month,UPI,Fiber,0,0,48.4,5.0,No
+CUST0495,39,1,145.9,128.19,Month-to-Month,Debit Card,Fiber,3,0,53.5,2.0,Yes
+CUST0496,32,30,123.83,3635.44,Two Year,UPI,Fiber,2,0,60.0,4.0,Yes
+CUST0497,29,49,58.07,2443.52,Month-to-Month,Credit Card,DSL,1,1,87.7,3.0,No
+CUST0498,27,3,147.4,439.66,Month-to-Month,Credit Card,Fiber,3,1,50.9,3.0,Yes
+CUST0499,48,45,98.24,4636.23,Two Year,Debit Card,Fiber,3,4,43.8,4.0,No
+CUST0500,34,14,95.71,1186.58,Two Year,UPI,Fiber,3,4,70.8,4.0,No
+CUST0501,51,56,117.25,6150.15,Month-to-Month,Debit Card,Fiber,3,1,28.5,1.0,Yes
+CUST0502,39,30,125.53,3650.48,Month-to-Month,Debit Card,None,1,1,17.5,4.0,No
+CUST0503,36,50,105.34,5929.9,Month-to-Month,UPI,None,2,1,56.1,1.0,No
+CUST0504,25,4,36.65,168.29,Two Year,Debit Card,Fiber,2,0,37.4,1.0,No
+CUST0505,55,18,63.97,994.26,Month-to-Month,Credit Card,DSL,1,2,38.9,1.0,No
+CUST0506,32,37,140.65,5611.54,Two Year,Bank Transfer,None,3,0,28.1,1.0,Yes
+CUST0507,45,25,49.2,1182.67,One Year,Bank Transfer,Fiber,1,0,77.9,2.0,No
+CUST0508,41,48,68.38,3176.35,Month-to-Month,Debit Card,DSL,1,3,17.9,3.0,No
+CUST0509,56,1,76.17,81.98,Month-to-Month,UPI,None,2,2,58.9,1.0,Yes
+CUST0510,43,53,77.12,4600.44,Month-to-Month,UPI,Fiber,1,1,44.2,3.0,Yes
+CUST0511,36,46,99.68,5205.57,Month-to-Month,Credit Card,Fiber,1,2,90.4,1.0,Yes
+CUST0512,59,15,142.6,2188.49,Month-to-Month,UPI,None,1,0,71.0,3.0,No
+CUST0513,59,9,51.29,441.82,One Year,UPI,DSL,3,0,24.1,4.0,No
+CUST0514,34,15,35.8,583.32,Two Year,Credit Card,Fiber,1,1,61.5,4.0,No
+CUST0515,51,49,45.67,2070.67,One Year,Debit Card,Fiber,2,0,55.3,3.0,No
+CUST0516,25,57,135.3,7860.34,One Year,Bank Transfer,Fiber,5,3,42.5,1.0,Yes
+CUST0517,55,24,103.96,2389.18,Month-to-Month,Credit Card,DSL,2,4,59.1,2.0,Yes
+CUST0518,43,4,57.17,239.43,Month-to-Month,Debit Card,DSL,3,1,31.4,3.0,No
+CUST0519,49,12,126.07,1395.02,Month-to-Month,Credit Card,None,4,0,46.4,5.0,Yes
+CUST0520,31,59,131.98,7066.37,One Year,Debit Card,Fiber,0,1,44.6,2.0,Yes
+CUST0521,38,58,130.05,8489.32,Two Year,Credit Card,DSL,3,3,,5.0,No
+CUST0522,32,37,139.46,4543.61,One Year,Debit Card,DSL,1,1,37.5,3.0,No
+CUST0523,29,37,52.79,1956.72,Month-to-Month,Credit Card,Fiber,3,2,34.2,1.0,Yes
+CUST0524,30,43,118.16,4655.39,Month-to-Month,Debit Card,Fiber,2,1,53.5,5.0,No
+CUST0525,37,60,79.87,4129.34,One Year,Credit Card,None,5,0,80.1,3.0,No
+CUST0526,58,6,129.46,668.64,Month-to-Month,Bank Transfer,DSL,2,0,21.1,2.0,Yes
+CUST0527,27,39,114.7,4037.45,Two Year,Bank Transfer,Fiber,1,2,54.3,1.0,Yes
+CUST0528,33,56,120.94,7517.84,Two Year,UPI,DSL,0,1,33.5,5.0,No
+CUST0529,60,46,105.3,4527.71,One Year,Debit Card,Fiber,3,1,68.8,3.0,No
+CUST0530,29,24,43.07,1173.37,Month-to-Month,Credit Card,DSL,1,0,54.0,1.0,No
+CUST0531,47,11,90.85,1023.82,Month-to-Month,Debit Card,DSL,1,3,18.3,1.0,Yes
+CUST0532,22,13,148.01,1887.54,Month-to-Month,Bank Transfer,DSL,3,1,48.5,4.0,Yes
+CUST0533,25,34,141.86,4939.13,Month-to-Month,Debit Card,None,3,0,41.3,1.0,Yes
+CUST0534,49,25,25.61,643.46,Month-to-Month,Credit Card,DSL,1,1,22.4,3.0,Yes
+CUST0535,57,7,41.43,312.52,One Year,Debit Card,Fiber,2,0,33.8,2.0,No
+CUST0536,58,52,37.12,1804.29,One Year,Credit Card,DSL,1,0,47.4,4.0,No
+CUST0537,39,4,114.38,437.35,Month-to-Month,Bank Transfer,Fiber,2,0,34.3,3.0,Yes
+CUST0538,28,59,126.31,8333.36,Month-to-Month,Bank Transfer,Fiber,3,2,72.7,3.0,Yes
+CUST0539,21,8,47.76,,Month-to-Month,Bank Transfer,Fiber,2,0,41.2,3.0,No
+CUST0540,42,20,85.76,1917.19,Month-to-Month,UPI,Fiber,0,0,,5.0,No
+CUST0541,37,29,129.29,3658.8,Two Year,Bank Transfer,DSL,1,1,48.7,5.0,No
+CUST0542,27,54,115.26,6747.54,Month-to-Month,Debit Card,Fiber,4,1,51.9,2.0,No
+CUST0543,45,53,90.49,4761.92,Month-to-Month,UPI,DSL,2,0,69.1,3.0,No
+CUST0544,24,51,96.75,4930.61,Month-to-Month,Bank Transfer,DSL,0,2,45.5,5.0,Yes
+CUST0545,56,45,86.09,3530.82,Two Year,Debit Card,Fiber,2,3,50.8,5.0,No
+CUST0546,26,46,58.68,2773.08,One Year,Debit Card,DSL,0,2,37.4,5.0,No
+CUST0547,51,10,93.45,846.51,Month-to-Month,Debit Card,Fiber,4,1,91.5,2.0,Yes
+CUST0548,39,43,109.56,4473.03,Month-to-Month,Credit Card,Fiber,3,0,53.8,2.0,Yes
+CUST0549,59,34,133.53,5023.57,One Year,UPI,DSL,1,0,47.9,3.0,No
+CUST0550,47,57,102.72,5340.52,Two Year,Debit Card,Fiber,4,0,34.3,4.0,No
+CUST0551,30,26,118.95,2694.82,Month-to-Month,Credit Card,Fiber,1,2,73.5,3.0,Yes
+CUST0552,46,41,40.81,1456.87,Two Year,Bank Transfer,DSL,3,0,17.2,5.0,No
+CUST0553,39,49,80.0,4438.36,Two Year,Debit Card,DSL,1,2,48.9,5.0,No
+CUST0554,59,58,21.21,1232.73,Two Year,Credit Card,Fiber,2,3,31.6,1.0,No
+CUST0555,23,3,52.07,151.96,One Year,Debit Card,None,1,2,65.7,3.0,No
+CUST0556,33,56,114.44,7006.33,One Year,UPI,DSL,1,0,52.2,5.0,No
+CUST0557,48,6,148.94,983.67,Month-to-Month,UPI,DSL,5,0,48.3,5.0,No
+CUST0558,40,5,32.89,156.17,One Year,Bank Transfer,Fiber,1,0,25.5,4.0,No
+CUST0559,48,5,72.19,381.92,Month-to-Month,Debit Card,DSL,3,2,42.8,1.0,Yes
+CUST0560,28,54,124.01,7241.22,One Year,Credit Card,DSL,0,0,53.2,3.0,No
+CUST0561,59,47,46.52,2287.88,Month-to-Month,Bank Transfer,DSL,3,3,69.1,2.0,No
+CUST0562,21,23,92.16,1898.13,One Year,Debit Card,DSL,2,1,56.6,3.0,No
+CUST0563,23,49,115.3,6286.79,Two Year,Bank Transfer,Fiber,0,1,65.7,3.0,Yes
+CUST0564,33,9,100.08,911.28,Month-to-Month,Credit Card,Fiber,3,1,20.2,4.0,No
+CUST0565,48,35,44.44,1453.9,Two Year,Bank Transfer,Fiber,4,1,47.7,3.0,No
+CUST0566,45,20,66.2,1294.3,Month-to-Month,Bank Transfer,Fiber,2,1,70.5,4.0,No
+CUST0567,53,58,121.89,6088.86,Two Year,Bank Transfer,DSL,1,1,11.5,4.0,No
+CUST0568,58,49,92.05,4006.9,Month-to-Month,Debit Card,Fiber,2,0,39.5,5.0,No
+CUST0569,26,59,20.68,1317.32,Month-to-Month,Credit Card,None,2,0,53.5,2.0,No
+CUST0570,52,42,118.93,4245.82,Two Year,UPI,None,4,2,75.1,4.0,No
+CUST0571,41,35,24.59,839.11,Month-to-Month,Debit Card,Fiber,4,2,46.7,1.0,Yes
+CUST0572,36,50,116.95,5886.99,Two Year,UPI,Fiber,4,1,44.0,1.0,Yes
+CUST0573,41,18,46.32,722.36,Month-to-Month,UPI,DSL,2,2,51.1,2.0,No
+CUST0574,31,17,144.55,2806.11,Month-to-Month,Debit Card,None,2,1,53.7,4.0,No
+CUST0575,57,24,67.83,1494.17,Month-to-Month,Debit Card,Fiber,0,0,27.9,2.0,No
+CUST0576,56,3,62.5,176.49,One Year,Credit Card,Fiber,2,1,34.3,5.0,No
+CUST0577,55,32,39.36,1185.44,Month-to-Month,Credit Card,DSL,1,0,15.5,1.0,No
+CUST0578,39,35,59.73,1921.48,Month-to-Month,Bank Transfer,DSL,2,1,31.6,3.0,No
+CUST0579,40,38,133.96,4329.16,Month-to-Month,UPI,Fiber,2,3,24.5,1.0,Yes
+CUST0580,38,13,149.52,2077.5,Month-to-Month,Credit Card,DSL,1,0,27.8,4.0,Yes
+CUST0581,34,56,67.88,4333.66,Two Year,Bank Transfer,Fiber,5,1,114.9,2.0,Yes
+CUST0582,35,47,78.32,3376.57,Two Year,Credit Card,Fiber,1,1,73.0,1.0,No
+CUST0583,51,25,113.87,2986.0,Month-to-Month,Debit Card,Fiber,3,0,24.8,3.0,No
+CUST0584,21,9,135.21,1305.2,One Year,Credit Card,Fiber,3,0,21.5,3.0,No
+CUST0585,23,4,97.1,429.0,Month-to-Month,UPI,Fiber,4,1,32.6,2.0,Yes
+CUST0586,36,14,70.9,969.56,One Year,Credit Card,Fiber,4,0,21.1,2.0,No
+CUST0587,43,37,73.64,2563.59,Two Year,UPI,Fiber,0,2,50.5,1.0,No
+CUST0588,31,34,110.43,3557.83,Two Year,Debit Card,Fiber,4,0,50.0,4.0,Yes
+CUST0589,32,11,20.42,238.95,Month-to-Month,UPI,Fiber,3,3,27.6,5.0,No
+CUST0590,30,41,100.55,4514.33,One Year,Credit Card,None,1,1,,3.0,No
+CUST0591,52,56,66.21,3353.61,Month-to-Month,Bank Transfer,Fiber,4,0,61.7,2.0,No
+CUST0592,36,3,123.25,355.43,Two Year,Debit Card,Fiber,2,3,30.8,5.0,Yes
+CUST0593,28,59,32.09,2121.61,Month-to-Month,Credit Card,DSL,4,0,27.1,,No
+CUST0594,58,28,96.47,2949.69,One Year,Debit Card,None,0,3,35.7,5.0,No
+CUST0595,32,29,82.53,2741.5,One Year,Debit Card,Fiber,0,0,58.0,4.0,No
+CUST0596,44,9,103.5,1002.55,One Year,Credit Card,DSL,4,1,110.1,2.0,Yes
+CUST0597,48,3,28.43,82.56,Month-to-Month,Credit Card,DSL,1,3,57.4,3.0,No
+CUST0598,28,25,95.4,2449.85,Two Year,Bank Transfer,DSL,1,1,23.7,2.0,Yes
+CUST0599,48,34,92.99,3314.38,Month-to-Month,Debit Card,Fiber,3,1,51.8,1.0,Yes
+CUST0600,56,12,92.89,973.71,One Year,Debit Card,DSL,3,1,46.7,3.0,Yes
+CUST0601,46,42,98.45,4190.1,Month-to-Month,Credit Card,Fiber,2,1,45.4,2.0,Yes
+CUST0602,28,9,107.94,1032.46,Month-to-Month,UPI,DSL,0,0,21.4,3.0,No
+CUST0603,48,15,124.65,1683.14,Month-to-Month,Credit Card,DSL,4,1,51.7,1.0,Yes
+CUST0604,48,40,55.08,2388.69,Month-to-Month,Debit Card,Fiber,0,2,43.5,3.0,No
+CUST0605,57,25,127.26,3261.46,Month-to-Month,Credit Card,DSL,1,1,23.1,5.0,No
+CUST0606,56,5,84.77,481.35,Month-to-Month,Bank Transfer,Fiber,3,0,96.3,4.0,No
+CUST0607,47,11,30.02,284.89,Month-to-Month,UPI,DSL,0,2,21.8,1.0,No
+CUST0608,37,59,27.61,1514.31,One Year,Credit Card,Fiber,1,1,55.1,3.0,No
+CUST0609,29,34,63.45,2223.02,Two Year,Bank Transfer,Fiber,2,1,40.9,1.0,No
+CUST0610,53,24,122.04,,Month-to-Month,Debit Card,Fiber,1,3,36.7,5.0,Yes
+CUST0611,40,60,112.0,7152.28,Month-to-Month,Credit Card,None,3,1,79.5,4.0,No
+CUST0612,33,15,122.52,1980.6,Month-to-Month,Debit Card,Fiber,1,1,68.6,1.0,Yes
+CUST0613,48,38,87.24,2919.81,Month-to-Month,Bank Transfer,Fiber,1,1,40.9,5.0,No
+CUST0614,49,8,77.23,620.41,One Year,Debit Card,Fiber,4,1,28.4,5.0,No
+CUST0615,33,59,39.17,2317.19,One Year,Bank Transfer,DSL,1,1,34.6,5.0,No
+CUST0616,55,5,62.67,301.06,Month-to-Month,Bank Transfer,DSL,4,2,38.1,3.0,Yes
+CUST0617,26,48,76.42,4144.57,Month-to-Month,Bank Transfer,Fiber,1,1,69.2,2.0,Yes
+CUST0618,38,26,31.52,900.04,Month-to-Month,Credit Card,Fiber,3,1,53.1,1.0,No
+CUST0619,25,18,48.68,928.08,Two Year,Debit Card,Fiber,1,2,70.3,2.0,No
+CUST0620,45,6,97.77,624.34,Two Year,Debit Card,Fiber,0,0,21.0,5.0,No
+CUST0621,22,37,115.64,4229.54,Month-to-Month,UPI,Fiber,4,0,73.2,2.0,Yes
+CUST0622,30,60,149.79,10122.49,Month-to-Month,UPI,DSL,0,1,85.1,5.0,No
+CUST0623,50,48,141.3,7178.35,Two Year,UPI,Fiber,1,1,29.5,5.0,No
+CUST0624,25,13,103.53,1438.34,Two Year,UPI,Fiber,4,1,64.9,4.0,Yes
+CUST0625,53,28,74.76,2320.42,Month-to-Month,Debit Card,Fiber,2,1,81.7,4.0,No
+CUST0626,21,5,102.7,478.7,Month-to-Month,Bank Transfer,None,3,3,32.7,2.0,Yes
+CUST0627,38,13,122.13,1733.95,Month-to-Month,Bank Transfer,None,2,0,24.3,1.0,Yes
+CUST0628,52,17,35.38,546.47,One Year,Credit Card,DSL,1,3,49.4,2.0,Yes
+CUST0629,31,50,73.29,3494.48,Month-to-Month,Bank Transfer,Fiber,2,1,15.1,1.0,No
+CUST0630,41,40,129.17,4911.99,Month-to-Month,Debit Card,Fiber,1,2,72.7,2.0,No
+CUST0631,46,45,69.9,3597.06,One Year,Debit Card,Fiber,3,1,27.5,3.0,No
+CUST0632,45,32,94.34,3341.78,Month-to-Month,Debit Card,Fiber,1,1,38.8,3.0,No
+CUST0633,42,29,96.41,2964.62,One Year,Credit Card,DSL,0,1,61.8,1.0,No
+CUST0634,47,51,43.98,2395.77,Month-to-Month,UPI,DSL,1,2,57.8,4.0,No
+CUST0635,33,58,67.09,3963.68,Month-to-Month,Bank Transfer,DSL,4,0,60.9,1.0,Yes
+CUST0636,53,3,63.49,216.02,One Year,Debit Card,DSL,2,1,29.4,2.0,No
+CUST0637,54,56,23.41,1309.49,Month-to-Month,Debit Card,Fiber,4,1,51.6,5.0,No
+CUST0638,55,40,23.14,892.42,Two Year,UPI,DSL,1,1,66.8,3.0,No
+CUST0639,21,34,128.12,3915.73,Month-to-Month,Debit Card,Fiber,1,0,32.2,5.0,No
+CUST0640,41,40,55.5,2410.61,Month-to-Month,Bank Transfer,Fiber,2,0,99.7,3.0,Yes
+CUST0641,26,27,87.35,2524.33,One Year,Credit Card,DSL,3,1,39.7,2.0,No
+CUST0642,48,13,58.83,738.26,Month-to-Month,Debit Card,Fiber,3,3,14.4,3.0,Yes
+CUST0643,37,45,142.29,5490.99,Two Year,Bank Transfer,Fiber,4,0,39.6,1.0,Yes
+CUST0644,25,33,53.71,1952.68,Month-to-Month,Debit Card,Fiber,1,1,81.2,5.0,No
+CUST0645,51,6,75.86,388.45,Month-to-Month,UPI,DSL,3,1,26.6,5.0,No
+CUST0646,25,24,133.45,3398.52,Month-to-Month,Debit Card,DSL,2,1,25.4,2.0,Yes
+CUST0647,58,19,129.45,2806.54,Month-to-Month,Debit Card,Fiber,1,1,53.6,5.0,Yes
+CUST0648,23,16,44.19,693.82,Two Year,Credit Card,DSL,1,1,24.3,2.0,No
+CUST0649,43,40,124.34,4578.16,Two Year,UPI,Fiber,1,2,,4.0,No
+CUST0650,57,28,79.56,2364.6,Month-to-Month,UPI,Fiber,3,2,28.3,1.0,Yes
+CUST0651,57,33,82.79,2991.99,Month-to-Month,Credit Card,DSL,2,1,91.5,3.0,Yes
+CUST0652,30,59,37.35,2234.34,Two Year,Debit Card,DSL,1,1,56.5,3.0,No
+CUST0653,30,59,30.48,2050.28,Two Year,Bank Transfer,None,5,2,45.5,3.0,No
+CUST0654,39,48,114.63,4762.19,Month-to-Month,UPI,Fiber,1,1,29.3,4.0,Yes
+CUST0655,37,41,84.54,3471.13,Month-to-Month,UPI,DSL,0,0,66.4,1.0,No
+CUST0656,41,13,76.79,1063.69,Month-to-Month,Debit Card,DSL,3,5,59.4,5.0,Yes
+CUST0657,34,43,114.84,5475.35,Two Year,Debit Card,None,2,2,94.8,5.0,No
+CUST0658,29,45,119.52,4860.87,Month-to-Month,UPI,Fiber,2,2,26.4,1.0,Yes
+CUST0659,21,25,40.66,1107.99,Month-to-Month,Debit Card,DSL,3,2,24.6,1.0,Yes
+CUST0660,33,53,99.33,5347.73,One Year,Bank Transfer,DSL,3,2,14.7,3.0,No
+CUST0661,24,42,37.6,1530.19,Month-to-Month,UPI,Fiber,3,3,57.2,5.0,No
+CUST0662,21,36,117.68,3768.41,Month-to-Month,Bank Transfer,Fiber,1,1,,1.0,Yes
+CUST0663,60,27,105.4,3157.67,Month-to-Month,Bank Transfer,Fiber,2,2,36.0,5.0,No
+CUST0664,52,38,144.36,4921.65,Month-to-Month,Debit Card,DSL,3,0,14.5,1.0,No
+CUST0665,54,60,28.96,1638.45,Month-to-Month,Bank Transfer,DSL,1,5,85.8,,No
+CUST0666,48,7,27.42,179.85,Month-to-Month,Debit Card,DSL,0,1,48.5,3.0,No
+CUST0667,51,5,56.68,314.98,Month-to-Month,Credit Card,DSL,2,2,77.5,1.0,Yes
+CUST0668,28,43,54.02,2443.21,One Year,Debit Card,DSL,1,1,81.2,4.0,No
+CUST0669,59,45,52.11,2553.66,Two Year,Bank Transfer,Fiber,2,0,56.4,1.0,Yes
+CUST0670,46,58,137.81,7394.63,One Year,Credit Card,Fiber,0,0,60.5,2.0,Yes
+CUST0671,54,57,52.44,3101.06,Month-to-Month,Debit Card,Fiber,5,0,31.7,4.0,No
+CUST0672,23,51,55.35,2883.61,Month-to-Month,Bank Transfer,Fiber,4,0,46.6,4.0,No
+CUST0673,32,31,118.72,4047.8,Month-to-Month,UPI,Fiber,1,1,71.2,1.0,Yes
+CUST0674,21,23,78.47,2024.68,Month-to-Month,UPI,DSL,2,0,28.4,2.0,No
+CUST0675,25,42,120.97,4337.16,Month-to-Month,Debit Card,Fiber,3,2,68.8,4.0,Yes
+CUST0676,50,10,28.5,299.88,One Year,Debit Card,Fiber,1,2,66.6,3.0,No
+CUST0677,50,32,83.38,2309.43,Month-to-Month,UPI,Fiber,5,0,65.7,3.0,Yes
+CUST0678,37,43,24.37,1063.27,Month-to-Month,Bank Transfer,Fiber,1,3,45.0,5.0,No
+CUST0679,43,53,28.14,1396.4,Month-to-Month,Bank Transfer,None,4,1,29.5,5.0,No
+CUST0680,35,30,137.84,3895.49,One Year,Bank Transfer,DSL,0,0,99.5,2.0,No
+CUST0681,57,39,38.1,1420.35,Month-to-Month,Debit Card,DSL,2,1,83.3,4.0,No
+CUST0682,41,31,89.21,2866.14,One Year,Credit Card,Fiber,2,1,45.5,3.0,No
+CUST0683,34,18,73.44,1256.11,Month-to-Month,Credit Card,DSL,1,1,49.9,3.0,Yes
+CUST0684,22,36,65.15,2509.13,Two Year,Credit Card,DSL,4,1,38.4,2.0,Yes
+CUST0685,31,2,136.98,266.11,Two Year,Credit Card,DSL,2,1,15.3,4.0,Yes
+CUST0686,59,14,22.84,278.35,Month-to-Month,Credit Card,Fiber,4,0,42.1,2.0,No
+CUST0687,58,13,106.29,1499.4,Month-to-Month,Debit Card,DSL,2,2,56.6,1.0,Yes
+CUST0688,54,29,145.24,3941.25,Month-to-Month,Debit Card,DSL,4,1,32.7,3.0,Yes
+CUST0689,58,12,92.82,1091.37,Month-to-Month,Credit Card,DSL,3,1,37.4,2.0,Yes
+CUST0690,54,39,141.79,5837.45,One Year,Debit Card,DSL,1,1,37.2,2.0,Yes
+CUST0691,38,2,26.79,50.89,Two Year,Debit Card,Fiber,1,3,46.9,1.0,No
+CUST0692,50,32,74.44,2065.21,One Year,Credit Card,DSL,2,1,39.2,5.0,No
+CUST0693,35,13,53.82,673.2,Two Year,Bank Transfer,Fiber,2,3,27.6,3.0,No
+CUST0694,47,46,115.01,5995.86,Month-to-Month,Debit Card,DSL,4,4,46.8,2.0,Yes
+CUST0695,54,27,147.57,4153.81,Month-to-Month,Bank Transfer,Fiber,1,0,55.2,3.0,No
+CUST0696,58,49,53.35,2748.63,One Year,Debit Card,Fiber,3,1,49.0,5.0,No
+CUST0697,53,41,105.04,4477.55,Month-to-Month,Debit Card,Fiber,4,1,14.6,2.0,No
+CUST0698,44,17,45.75,,One Year,Credit Card,DSL,5,3,60.3,1.0,Yes
+CUST0699,35,40,93.49,3647.98,Month-to-Month,Debit Card,Fiber,2,1,23.2,3.0,No
+CUST0700,50,31,80.31,2677.03,Month-to-Month,UPI,DSL,3,1,54.7,1.0,Yes
+CUST0701,37,34,146.36,4381.14,Two Year,UPI,DSL,1,1,55.9,5.0,No
+CUST0702,25,60,99.11,5550.29,Month-to-Month,Credit Card,Fiber,1,2,18.5,5.0,No
+CUST0703,49,24,65.44,1465.17,Two Year,Bank Transfer,Fiber,2,2,67.6,3.0,Yes
+CUST0704,24,45,34.83,1535.38,Two Year,Bank Transfer,Fiber,3,0,,5.0,No
+CUST0705,30,35,39.66,1588.14,One Year,Bank Transfer,DSL,2,1,38.0,4.0,No
+CUST0706,37,48,49.29,2058.94,One Year,UPI,DSL,1,0,54.7,3.0,No
+CUST0707,30,6,52.63,317.55,One Year,Bank Transfer,Fiber,2,2,34.6,4.0,No
+CUST0708,37,19,130.58,2242.37,Two Year,Bank Transfer,Fiber,3,0,23.0,5.0,Yes
+CUST0709,40,30,92.96,3182.59,Month-to-Month,Credit Card,DSL,2,1,70.8,3.0,Yes
+CUST0710,44,7,88.04,544.79,Month-to-Month,Bank Transfer,DSL,3,2,55.4,4.0,No
+CUST0711,25,10,34.92,339.1,One Year,UPI,DSL,3,0,30.6,5.0,No
+CUST0712,54,41,131.82,5790.32,Month-to-Month,UPI,DSL,2,0,23.6,2.0,No
+CUST0713,26,32,113.97,3870.85,Month-to-Month,UPI,Fiber,2,0,101.6,2.0,Yes
+CUST0714,22,34,28.8,956.5,Month-to-Month,Credit Card,Fiber,3,0,20.3,1.0,No
+CUST0715,33,28,112.02,2992.14,One Year,Credit Card,Fiber,3,1,59.3,2.0,Yes
+CUST0716,31,60,90.66,5272.52,Two Year,Debit Card,Fiber,1,2,48.2,4.0,No
+CUST0717,43,15,30.62,426.82,Month-to-Month,Bank Transfer,Fiber,1,0,64.2,2.0,No
+CUST0718,36,30,79.58,2176.35,Two Year,Credit Card,Fiber,4,0,88.5,3.0,No
+CUST0719,51,37,83.01,3055.74,One Year,UPI,Fiber,5,0,8.2,3.0,Yes
+CUST0720,31,29,41.55,1121.28,Two Year,UPI,None,1,1,25.1,3.0,No
+CUST0721,36,22,142.94,2944.17,One Year,Credit Card,DSL,1,2,41.4,2.0,Yes
+CUST0722,28,4,130.5,546.55,One Year,Credit Card,DSL,4,2,91.9,2.0,Yes
+CUST0723,24,20,106.97,2440.12,Month-to-Month,Credit Card,DSL,2,0,35.4,1.0,Yes
+CUST0724,60,32,80.1,2642.89,Two Year,Debit Card,Fiber,4,1,31.9,5.0,No
+CUST0725,24,36,73.53,2311.15,Month-to-Month,UPI,DSL,3,1,11.2,,No
+CUST0726,45,50,104.63,4565.4,Two Year,Debit Card,Fiber,2,2,30.3,4.0,Yes
+CUST0727,23,4,90.91,412.89,Two Year,Debit Card,DSL,2,2,58.2,3.0,No
+CUST0728,52,27,28.1,712.56,Month-to-Month,Bank Transfer,Fiber,1,2,41.6,2.0,No
+CUST0729,23,17,86.63,1292.48,Month-to-Month,UPI,None,1,2,29.9,5.0,No
+CUST0730,47,12,124.83,1542.47,One Year,UPI,Fiber,2,0,102.2,5.0,No
+CUST0731,49,22,79.7,1818.44,Month-to-Month,Credit Card,Fiber,2,1,37.8,2.0,No
+CUST0732,52,17,26.75,475.01,Two Year,Credit Card,None,3,3,46.9,1.0,No
+CUST0733,39,10,122.22,1136.92,Month-to-Month,Bank Transfer,Fiber,3,1,28.9,5.0,No
+CUST0734,41,54,46.18,2130.97,Month-to-Month,Debit Card,DSL,1,1,22.9,1.0,No
+CUST0735,25,1,53.62,61.1,Two Year,Credit Card,DSL,3,1,62.1,2.0,No
+CUST0736,38,22,41.41,,One Year,Credit Card,DSL,2,0,16.4,1.0,No
+CUST0737,48,26,62.93,1722.58,Two Year,UPI,None,3,4,55.8,3.0,No
+CUST0738,42,56,118.38,7040.22,Month-to-Month,UPI,None,3,2,6.4,2.0,Yes
+CUST0739,41,59,87.52,5334.09,One Year,Credit Card,Fiber,4,0,51.9,2.0,No
+CUST0740,26,18,46.63,792.23,One Year,UPI,DSL,2,1,24.2,5.0,No
+CUST0741,21,50,134.12,6245.49,One Year,Bank Transfer,DSL,1,2,27.1,5.0,No
+CUST0742,25,14,134.35,1936.01,One Year,Credit Card,DSL,2,1,38.0,5.0,Yes
+CUST0743,32,47,133.18,,One Year,UPI,Fiber,3,1,21.9,3.0,Yes
+CUST0744,46,29,51.04,1678.53,Month-to-Month,Bank Transfer,DSL,2,1,13.9,3.0,No
+CUST0745,54,12,78.66,832.32,Month-to-Month,UPI,None,1,1,40.0,4.0,No
+CUST0746,34,36,148.05,4777.89,One Year,UPI,None,0,0,63.7,2.0,Yes
+CUST0747,46,59,120.36,8048.69,Month-to-Month,UPI,Fiber,0,0,49.4,5.0,No
+CUST0748,47,35,23.53,881.99,One Year,Credit Card,Fiber,1,2,75.0,2.0,No
+CUST0749,29,52,28.48,1651.12,Month-to-Month,Debit Card,Fiber,2,3,15.0,1.0,Yes
+CUST0750,46,12,80.31,877.75,One Year,UPI,DSL,3,0,35.6,3.0,No
+CUST0751,42,7,138.2,992.82,One Year,Bank Transfer,DSL,3,2,44.8,4.0,Yes
+CUST0752,50,29,90.03,2768.41,Month-to-Month,Credit Card,Fiber,2,2,27.1,1.0,Yes
+CUST0753,37,11,84.72,982.27,Month-to-Month,Credit Card,Fiber,2,3,45.8,2.0,Yes
+CUST0754,46,33,33.71,1081.78,Month-to-Month,Bank Transfer,Fiber,1,1,73.0,3.0,No
+CUST0755,56,6,105.38,540.36,One Year,UPI,Fiber,3,1,56.6,5.0,Yes
+CUST0756,21,47,126.87,6111.23,Two Year,Debit Card,None,1,2,78.1,1.0,Yes
+CUST0757,28,15,69.45,964.59,Month-to-Month,UPI,DSL,1,2,50.8,3.0,No
+CUST0758,55,32,120.83,3808.86,One Year,Bank Transfer,Fiber,2,0,41.7,2.0,Yes
+CUST0759,35,51,145.38,8432.18,Month-to-Month,Credit Card,DSL,2,3,89.0,2.0,Yes
+CUST0760,42,11,46.49,495.9,Month-to-Month,Debit Card,Fiber,2,0,46.7,1.0,No
+CUST0761,34,58,88.03,5626.22,Two Year,Credit Card,None,3,1,98.5,1.0,No
+CUST0762,46,23,57.33,1195.38,Month-to-Month,Bank Transfer,Fiber,3,0,68.4,1.0,No
+CUST0763,48,26,123.07,3365.37,Month-to-Month,UPI,Fiber,1,2,30.5,4.0,No
+CUST0764,43,34,95.09,3695.72,Month-to-Month,Debit Card,Fiber,1,0,39.6,5.0,No
+CUST0765,34,46,102.5,4151.88,Month-to-Month,Credit Card,DSL,3,4,88.6,3.0,No
+CUST0766,44,34,123.73,3586.3,Month-to-Month,Credit Card,DSL,4,1,75.0,2.0,Yes
+CUST0767,22,29,71.48,2031.62,Month-to-Month,Credit Card,DSL,2,1,63.2,2.0,Yes
+CUST0768,46,4,138.96,487.91,One Year,UPI,Fiber,2,3,59.8,5.0,Yes
+CUST0769,34,17,89.29,1631.04,Month-to-Month,Debit Card,Fiber,3,0,20.7,1.0,No
+CUST0770,27,35,40.53,1594.97,Month-to-Month,UPI,Fiber,2,1,23.5,1.0,No
+CUST0771,23,13,110.47,1407.68,Month-to-Month,UPI,DSL,3,4,49.6,2.0,Yes
+CUST0772,43,41,123.12,4682.52,Month-to-Month,UPI,Fiber,3,1,27.4,5.0,Yes
+CUST0773,38,39,61.18,2339.07,One Year,Bank Transfer,DSL,2,1,38.2,2.0,No
+CUST0774,58,15,131.43,2103.6,Two Year,Bank Transfer,DSL,1,1,36.8,1.0,Yes
+CUST0775,55,55,137.8,6462.74,Month-to-Month,Bank Transfer,DSL,3,1,58.3,3.0,Yes
+CUST0776,35,29,56.0,1667.58,Two Year,Debit Card,Fiber,1,3,50.6,1.0,No
+CUST0777,45,29,147.86,,One Year,UPI,Fiber,0,0,72.2,3.0,No
+CUST0778,57,11,38.29,438.59,One Year,UPI,Fiber,4,2,51.0,4.0,Yes
+CUST0779,48,52,46.26,,Month-to-Month,Bank Transfer,DSL,1,1,49.1,5.0,No
+CUST0780,30,32,43.95,1496.71,Month-to-Month,UPI,DSL,3,0,44.0,4.0,No
+CUST0781,59,2,136.22,239.04,Month-to-Month,UPI,Fiber,3,6,77.6,1.0,Yes
+CUST0782,37,47,105.06,4492.34,One Year,Credit Card,Fiber,0,2,44.2,5.0,No
+CUST0783,59,14,39.77,619.83,Month-to-Month,UPI,DSL,3,1,30.0,1.0,No
+CUST0784,42,20,77.24,1655.43,Two Year,Credit Card,DSL,3,1,61.2,5.0,No
+CUST0785,46,22,99.99,1878.88,Month-to-Month,UPI,Fiber,1,0,41.5,5.0,Yes
+CUST0786,45,11,30.85,313.73,Month-to-Month,Debit Card,DSL,4,2,68.0,1.0,Yes
+CUST0787,37,27,134.71,3325.54,One Year,Bank Transfer,Fiber,0,0,81.7,,No
+CUST0788,33,3,124.47,347.74,Month-to-Month,Credit Card,Fiber,1,0,39.6,5.0,No
+CUST0789,40,17,85.68,1346.25,Month-to-Month,Bank Transfer,None,2,0,80.3,5.0,No
+CUST0790,45,44,145.73,5570.58,One Year,Credit Card,DSL,2,1,68.9,1.0,Yes
+CUST0791,24,56,74.31,4110.1,Two Year,Credit Card,DSL,2,1,32.9,1.0,No
+CUST0792,30,28,147.93,4431.24,One Year,Credit Card,Fiber,4,0,27.7,2.0,Yes
+CUST0793,23,29,106.83,3197.27,One Year,Debit Card,DSL,2,0,26.5,2.0,Yes
+CUST0794,38,21,102.51,2264.35,One Year,UPI,Fiber,0,0,23.2,2.0,No
+CUST0795,56,47,41.57,1708.29,Two Year,Credit Card,Fiber,1,3,76.4,4.0,No
+CUST0796,42,16,134.65,2446.21,Month-to-Month,Debit Card,DSL,6,0,39.9,5.0,No
+CUST0797,54,37,75.57,3080.03,Month-to-Month,Credit Card,Fiber,4,2,,3.0,Yes
+CUST0798,28,59,41.09,2646.2,Month-to-Month,UPI,DSL,3,2,30.8,4.0,No
+CUST0799,60,20,21.64,474.74,Month-to-Month,Credit Card,DSL,4,1,33.9,5.0,No
+CUST0800,39,6,92.77,628.88,One Year,Debit Card,Fiber,3,1,56.9,3.0,No
+CUST0801,57,19,88.56,1704.98,One Year,UPI,Fiber,2,1,92.8,2.0,Yes
+CUST0802,26,57,113.52,5888.83,One Year,Debit Card,Fiber,1,1,33.1,3.0,No
+CUST0803,46,5,135.73,702.43,Month-to-Month,UPI,Fiber,1,4,65.0,1.0,Yes
+CUST0804,54,3,30.32,97.59,One Year,UPI,DSL,2,1,44.1,1.0,No
+CUST0805,26,59,115.09,7274.97,Month-to-Month,Bank Transfer,DSL,1,1,57.3,5.0,No
+CUST0806,57,1,44.36,44.65,One Year,Bank Transfer,Fiber,4,1,28.6,4.0,No
+CUST0807,53,58,131.56,6642.62,One Year,Bank Transfer,Fiber,1,2,61.7,2.0,Yes
+CUST0808,42,60,126.48,7295.37,Month-to-Month,UPI,DSL,3,1,38.2,5.0,No
+CUST0809,41,38,90.3,3864.55,Month-to-Month,Credit Card,DSL,1,1,34.7,2.0,No
+CUST0810,26,15,112.33,1727.64,Month-to-Month,Debit Card,Fiber,2,3,43.2,1.0,Yes
+CUST0811,26,34,60.87,2093.38,Two Year,Debit Card,Fiber,1,0,59.0,4.0,No
+CUST0812,24,35,81.25,2646.55,Two Year,Debit Card,DSL,3,0,40.5,4.0,No
+CUST0813,50,49,126.81,5968.46,One Year,Bank Transfer,Fiber,3,0,34.9,1.0,No
+CUST0814,31,25,79.7,2228.82,Month-to-Month,UPI,Fiber,1,0,41.2,3.0,No
+CUST0815,50,24,66.51,1675.95,Month-to-Month,Bank Transfer,DSL,5,1,40.7,4.0,No
+CUST0816,51,12,84.25,1098.16,One Year,Credit Card,DSL,6,3,56.7,3.0,Yes
+CUST0817,44,18,127.67,2266.58,One Year,UPI,DSL,1,1,36.1,2.0,Yes
+CUST0818,29,15,63.58,990.97,Month-to-Month,Debit Card,DSL,2,0,35.6,4.0,No
+CUST0819,23,44,42.59,1732.5,Month-to-Month,Bank Transfer,DSL,3,1,28.7,1.0,No
+CUST0820,51,16,112.56,1911.97,One Year,Bank Transfer,Fiber,1,3,58.5,3.0,Yes
+CUST0821,60,27,127.38,3364.56,Month-to-Month,Credit Card,Fiber,3,0,47.2,2.0,Yes
+CUST0822,57,8,33.08,260.08,Month-to-Month,Credit Card,Fiber,2,2,77.4,2.0,No
+CUST0823,56,60,51.18,3208.36,Month-to-Month,Bank Transfer,Fiber,0,0,72.6,4.0,No
+CUST0824,44,46,38.46,2000.72,Month-to-Month,Credit Card,DSL,1,0,49.6,4.0,No
+CUST0825,51,25,65.23,1417.45,Two Year,Debit Card,DSL,2,1,41.9,5.0,No
+CUST0826,26,17,78.55,1465.44,Two Year,Credit Card,None,1,1,44.2,5.0,No
+CUST0827,22,29,117.35,3191.18,One Year,Credit Card,DSL,1,3,31.8,4.0,Yes
+CUST0828,40,53,104.65,5453.14,Month-to-Month,Bank Transfer,Fiber,3,0,28.9,5.0,No
+CUST0829,48,8,100.72,690.19,Month-to-Month,Bank Transfer,Fiber,0,1,26.7,1.0,Yes
+CUST0830,31,15,65.81,928.23,Month-to-Month,UPI,DSL,2,2,,1.0,No
+CUST0831,24,27,129.39,3496.29,Month-to-Month,UPI,DSL,2,1,9.0,5.0,Yes
+CUST0832,35,46,81.27,3240.66,One Year,Bank Transfer,DSL,2,1,91.0,4.0,No
+CUST0833,26,50,147.28,7344.33,Month-to-Month,Credit Card,DSL,1,1,104.0,1.0,Yes
+CUST0834,50,52,102.44,6009.43,Month-to-Month,Credit Card,DSL,2,1,25.1,2.0,Yes
+CUST0835,58,7,36.41,224.7,Month-to-Month,UPI,DSL,3,0,103.2,4.0,Yes
+CUST0836,22,3,107.9,349.38,Month-to-Month,UPI,Fiber,3,2,25.3,3.0,Yes
+CUST0837,35,29,62.26,1756.61,Month-to-Month,UPI,DSL,5,1,44.3,3.0,Yes
+CUST0838,31,44,109.22,5029.39,Month-to-Month,Debit Card,DSL,2,1,53.5,4.0,Yes
+CUST0839,28,53,29.05,1428.9,Two Year,Debit Card,Fiber,0,2,46.3,,No
+CUST0840,46,24,42.73,920.76,Month-to-Month,UPI,DSL,1,0,33.1,1.0,No
+CUST0841,25,60,131.25,7072.84,Month-to-Month,Credit Card,Fiber,1,0,32.2,1.0,Yes
+CUST0842,26,58,49.53,2502.58,Two Year,UPI,None,2,0,65.4,4.0,No
+CUST0843,46,3,128.82,350.01,Two Year,Debit Card,Fiber,3,2,78.5,2.0,Yes
+CUST0844,24,20,56.31,1181.68,One Year,Credit Card,DSL,5,4,15.7,5.0,No
+CUST0845,39,46,103.57,5309.76,Two Year,Debit Card,Fiber,2,0,50.0,2.0,No
+CUST0846,40,15,110.24,1809.43,Month-to-Month,Credit Card,DSL,1,0,59.3,4.0,Yes
+CUST0847,53,25,86.65,2286.56,Month-to-Month,Debit Card,Fiber,2,0,48.3,4.0,No
+CUST0848,40,30,59.69,1581.42,Month-to-Month,Credit Card,Fiber,3,1,20.2,2.0,Yes
+CUST0849,32,14,47.64,624.78,One Year,Credit Card,Fiber,2,1,57.0,3.0,No
+CUST0850,21,7,24.31,160.46,One Year,Credit Card,None,2,1,73.3,4.0,No
+CUST0851,46,17,59.51,935.78,Month-to-Month,Credit Card,Fiber,1,0,,5.0,No
+CUST0852,34,44,104.91,4636.82,Month-to-Month,Bank Transfer,Fiber,3,1,32.9,2.0,Yes
+CUST0853,58,20,141.98,2869.89,One Year,Debit Card,DSL,3,1,48.8,3.0,Yes
+CUST0854,57,36,133.26,4591.39,Month-to-Month,Debit Card,DSL,3,0,42.5,2.0,Yes
+CUST0855,31,9,119.59,1029.1,One Year,Bank Transfer,None,3,1,33.0,3.0,Yes
+CUST0856,56,38,122.5,,One Year,Credit Card,Fiber,2,0,22.8,3.0,No
+CUST0857,33,48,106.45,5553.05,One Year,Credit Card,DSL,5,2,34.4,5.0,No
+CUST0858,23,57,53.84,2891.92,One Year,Debit Card,Fiber,3,0,12.2,4.0,No
+CUST0859,53,60,137.94,9303.8,Two Year,Bank Transfer,Fiber,2,1,59.8,3.0,Yes
+CUST0860,26,22,107.2,2678.78,Month-to-Month,Credit Card,DSL,5,2,30.3,4.0,Yes
+CUST0861,30,54,92.86,4753.8,One Year,Credit Card,DSL,3,0,64.5,5.0,No
+CUST0862,25,53,34.43,1745.1,One Year,Credit Card,DSL,0,4,39.2,4.0,No
+CUST0863,43,53,78.12,4147.36,Month-to-Month,UPI,Fiber,1,0,47.3,1.0,No
+CUST0864,30,2,79.85,180.83,Month-to-Month,Bank Transfer,Fiber,2,1,17.4,,Yes
+CUST0865,22,24,132.39,3536.07,Month-to-Month,Credit Card,Fiber,1,0,62.0,5.0,Yes
+CUST0866,33,8,91.06,641.62,Month-to-Month,UPI,None,3,1,133.5,2.0,Yes
+CUST0867,60,11,69.45,739.37,One Year,Bank Transfer,Fiber,7,2,36.2,5.0,No
+CUST0868,22,13,146.98,1941.33,Two Year,Credit Card,Fiber,1,3,46.9,3.0,Yes
+CUST0869,40,17,34.39,585.18,Month-to-Month,Debit Card,Fiber,2,0,49.9,5.0,No
+CUST0870,21,8,74.93,544.39,Month-to-Month,UPI,DSL,1,1,21.2,2.0,No
+CUST0871,57,21,25.46,592.21,Two Year,UPI,Fiber,2,2,24.5,1.0,No
+CUST0872,29,18,116.19,2202.44,Month-to-Month,Credit Card,None,0,2,57.6,3.0,Yes
+CUST0873,37,30,139.35,4604.29,Month-to-Month,Credit Card,Fiber,3,3,28.5,3.0,Yes
+CUST0874,29,18,56.4,1124.47,One Year,UPI,DSL,4,0,39.1,5.0,Yes
+CUST0875,31,46,131.58,6503.65,Month-to-Month,Debit Card,Fiber,2,4,47.4,4.0,Yes
+CUST0876,35,47,57.99,2675.83,Month-to-Month,Debit Card,DSL,4,1,58.6,4.0,Yes
+CUST0877,44,31,138.4,4432.69,Month-to-Month,Bank Transfer,None,3,2,40.2,2.0,Yes
+CUST0878,58,38,118.02,4027.81,Month-to-Month,Credit Card,Fiber,2,2,40.7,1.0,Yes
+CUST0879,55,32,124.64,4196.25,One Year,Debit Card,None,3,3,123.1,1.0,Yes
+CUST0880,50,11,22.34,222.09,Month-to-Month,Bank Transfer,Fiber,5,0,69.6,5.0,No
+CUST0881,51,45,145.17,6912.75,Month-to-Month,Debit Card,None,3,1,36.7,5.0,Yes
+CUST0882,25,25,114.47,2629.6,One Year,Credit Card,DSL,0,1,41.0,4.0,No
+CUST0883,34,33,59.62,1741.72,Two Year,Bank Transfer,Fiber,2,2,100.1,1.0,No
+CUST0884,31,60,127.82,6899.1,Month-to-Month,Bank Transfer,Fiber,2,0,58.7,1.0,Yes
+CUST0885,29,38,56.6,1829.47,Month-to-Month,Bank Transfer,Fiber,3,2,74.1,1.0,No
+CUST0886,54,41,133.46,5830.93,One Year,Debit Card,Fiber,2,1,36.2,2.0,Yes
+CUST0887,32,8,34.64,296.44,Month-to-Month,Credit Card,Fiber,0,1,34.1,2.0,No
+CUST0888,55,11,111.48,1231.77,Month-to-Month,Bank Transfer,Fiber,2,0,88.2,5.0,Yes
+CUST0889,55,22,90.29,1784.58,One Year,UPI,Fiber,5,2,42.6,4.0,Yes
+CUST0890,21,51,32.55,1452.65,Two Year,Credit Card,DSL,1,1,42.2,3.0,No
+CUST0891,60,24,51.45,1056.67,Two Year,UPI,Fiber,2,2,35.0,4.0,No
+CUST0892,42,41,21.61,797.16,One Year,UPI,Fiber,0,0,72.6,2.0,No
+CUST0893,49,17,80.94,1537.32,One Year,Bank Transfer,DSL,2,1,76.2,2.0,Yes
+CUST0894,28,12,59.16,654.87,Month-to-Month,Bank Transfer,Fiber,1,1,48.6,5.0,No
+CUST0895,31,57,97.79,,One Year,Debit Card,Fiber,2,1,23.7,3.0,No
+CUST0896,57,46,58.64,2378.07,Month-to-Month,Debit Card,Fiber,1,1,33.0,1.0,Yes
+CUST0897,34,32,58.99,1730.45,Month-to-Month,Debit Card,None,2,0,,3.0,No
+CUST0898,50,15,116.62,1759.39,One Year,Credit Card,DSL,1,0,49.2,3.0,No
+CUST0899,55,16,26.26,433.74,One Year,Debit Card,Fiber,3,0,73.0,3.0,No
+CUST0900,41,54,137.38,6851.79,Month-to-Month,UPI,DSL,1,1,53.8,5.0,No
+CUST0901,57,22,130.79,2495.61,Two Year,Debit Card,DSL,2,3,25.5,2.0,Yes
+CUST0902,25,28,106.81,2892.91,Month-to-Month,Bank Transfer,DSL,1,1,56.7,1.0,Yes
+CUST0903,39,20,97.12,1787.51,Month-to-Month,Debit Card,DSL,0,2,43.1,3.0,No
+CUST0904,34,33,136.0,4110.41,Month-to-Month,Credit Card,DSL,1,0,33.4,1.0,Yes
+CUST0905,46,10,44.09,501.73,One Year,Credit Card,Fiber,2,1,35.0,3.0,No
+CUST0906,24,40,30.27,1253.04,One Year,UPI,Fiber,0,2,72.1,2.0,No
+CUST0907,45,32,51.14,1664.4,Month-to-Month,Credit Card,Fiber,2,0,50.0,1.0,No
+CUST0908,45,50,123.3,6009.23,One Year,Debit Card,DSL,2,2,48.3,4.0,Yes
+CUST0909,38,60,24.51,,Month-to-Month,Bank Transfer,DSL,0,2,92.6,2.0,No
+CUST0910,60,33,95.76,3198.86,One Year,Credit Card,DSL,1,0,30.5,1.0,Yes
+CUST0911,28,2,149.41,316.43,Month-to-Month,UPI,None,2,1,42.0,3.0,Yes
+CUST0912,59,33,131.24,4593.56,Month-to-Month,Debit Card,Fiber,0,2,31.9,3.0,Yes
+CUST0913,60,33,87.79,2611.73,Two Year,UPI,DSL,4,2,56.2,2.0,Yes
+CUST0914,34,41,28.27,1159.11,Month-to-Month,Credit Card,DSL,4,0,48.7,2.0,No
+CUST0915,52,13,128.08,1621.06,Month-to-Month,Credit Card,None,2,2,36.6,3.0,Yes
+CUST0916,58,30,97.87,3262.47,One Year,UPI,None,1,1,39.0,1.0,No
+CUST0917,53,33,34.94,1198.48,Two Year,Debit Card,DSL,4,0,68.6,4.0,No
+CUST0918,43,13,32.2,422.68,Month-to-Month,Credit Card,Fiber,6,0,77.3,5.0,No
+CUST0919,35,52,138.25,6359.52,Month-to-Month,Bank Transfer,DSL,2,2,32.9,2.0,Yes
+CUST0920,53,26,107.0,2870.17,Month-to-Month,Credit Card,Fiber,3,1,136.4,3.0,No
+CUST0921,45,22,127.81,2488.91,Month-to-Month,Debit Card,DSL,1,1,20.8,1.0,Yes
+CUST0922,37,39,134.27,4980.79,Month-to-Month,Credit Card,None,2,1,25.0,2.0,Yes
+CUST0923,53,2,94.33,168.45,One Year,UPI,Fiber,3,1,38.1,1.0,No
+CUST0924,22,38,87.27,3507.35,Two Year,Credit Card,DSL,0,1,29.6,2.0,Yes
+CUST0925,34,39,75.96,2701.38,Month-to-Month,Credit Card,Fiber,0,0,27.7,,No
+CUST0926,60,26,61.2,1539.58,Month-to-Month,Debit Card,Fiber,3,3,76.3,1.0,No
+CUST0927,60,46,76.5,3936.71,Month-to-Month,UPI,Fiber,0,2,57.2,3.0,No
+CUST0928,59,58,120.6,6374.33,Month-to-Month,Debit Card,DSL,2,1,46.2,1.0,Yes
+CUST0929,26,50,98.25,4924.0,Two Year,Credit Card,None,0,2,33.5,2.0,No
+CUST0930,26,15,136.03,1991.03,Month-to-Month,Bank Transfer,None,1,0,25.5,5.0,No
+CUST0931,23,34,77.64,2258.15,Month-to-Month,Credit Card,Fiber,2,2,24.9,5.0,No
+CUST0932,27,42,98.92,4519.53,One Year,Debit Card,DSL,3,2,76.2,4.0,No
+CUST0933,28,55,102.07,4888.06,Month-to-Month,Bank Transfer,DSL,1,2,74.6,4.0,No
+CUST0934,35,44,96.92,4231.54,One Year,Debit Card,Fiber,1,3,38.6,3.0,Yes
+CUST0935,49,49,111.34,5554.97,Month-to-Month,Debit Card,Fiber,3,3,19.9,1.0,Yes
+CUST0936,53,40,50.87,2113.2,Two Year,UPI,Fiber,2,0,59.6,4.0,No
+CUST0937,50,11,86.61,1006.62,Two Year,Bank Transfer,None,1,0,38.7,2.0,No
+CUST0938,59,3,33.55,93.2,One Year,Credit Card,DSL,1,0,70.0,5.0,No
+CUST0939,47,59,69.99,3522.36,Two Year,Debit Card,DSL,3,0,24.7,1.0,No
+CUST0940,56,6,83.4,533.94,Month-to-Month,Credit Card,Fiber,3,3,46.0,5.0,Yes
+CUST0941,49,9,104.79,953.2,Month-to-Month,UPI,DSL,2,3,23.4,1.0,Yes
+CUST0942,58,6,143.57,948.28,One Year,UPI,Fiber,3,2,30.1,4.0,Yes
+CUST0943,53,9,98.08,967.83,One Year,Bank Transfer,Fiber,1,1,29.7,4.0,No
+CUST0944,57,39,116.67,5018.78,Month-to-Month,UPI,DSL,2,0,38.3,3.0,No
+CUST0945,47,31,85.81,2648.22,Month-to-Month,UPI,Fiber,1,1,79.3,1.0,Yes
+CUST0946,53,32,102.43,3114.16,Month-to-Month,Credit Card,DSL,2,0,47.2,2.0,Yes
+CUST0947,24,41,29.22,1302.81,Month-to-Month,UPI,Fiber,1,4,64.4,4.0,No
+CUST0948,42,50,53.07,2614.73,Month-to-Month,UPI,DSL,2,3,45.7,3.0,No
+CUST0949,22,12,67.04,728.08,One Year,Debit Card,Fiber,5,4,35.6,4.0,No
+CUST0950,30,8,81.42,720.72,Month-to-Month,UPI,DSL,0,2,13.4,5.0,No
+CUST0951,25,8,25.93,231.25,Month-to-Month,Debit Card,Fiber,1,2,25.4,4.0,No
+CUST0952,30,50,38.2,1890.7,One Year,UPI,Fiber,3,1,44.0,1.0,No
+CUST0953,53,28,55.99,1368.16,One Year,UPI,None,3,2,47.9,3.0,No
+CUST0954,58,20,146.3,2827.53,Two Year,Bank Transfer,Fiber,1,0,70.1,1.0,Yes
+CUST0955,33,47,63.08,3234.73,One Year,Bank Transfer,DSL,2,0,17.0,2.0,No
+CUST0956,51,59,82.67,5465.43,Month-to-Month,Debit Card,None,3,2,112.8,2.0,Yes
+CUST0957,56,7,45.49,290.1,Two Year,UPI,Fiber,1,2,13.3,4.0,No
+CUST0958,44,11,99.4,951.36,Month-to-Month,Credit Card,Fiber,2,3,42.6,3.0,Yes
+CUST0959,35,20,56.49,1257.7,Month-to-Month,Bank Transfer,DSL,2,2,32.3,3.0,Yes
+CUST0960,49,16,46.91,725.66,One Year,Credit Card,None,3,1,25.6,3.0,No
+CUST0961,28,4,87.15,352.97,Two Year,Bank Transfer,None,3,1,89.7,3.0,Yes
+CUST0962,25,6,20.72,141.78,Month-to-Month,Bank Transfer,DSL,0,0,33.0,4.0,No
+CUST0963,49,58,21.0,1059.62,Month-to-Month,UPI,DSL,4,0,16.3,1.0,No
+CUST0964,24,22,48.48,1114.02,Month-to-Month,Bank Transfer,Fiber,2,0,21.6,4.0,No
+CUST0965,32,26,24.77,561.73,Month-to-Month,Credit Card,None,2,3,74.3,1.0,No
+CUST0966,22,3,34.04,98.3,Month-to-Month,Bank Transfer,None,1,2,22.2,5.0,No
+CUST0967,47,41,64.05,2865.4,One Year,Debit Card,Fiber,5,2,19.1,5.0,No
+CUST0968,51,60,124.34,7311.5,Month-to-Month,UPI,Fiber,0,2,48.4,1.0,Yes
+CUST0969,56,42,94.37,4554.72,Two Year,UPI,Fiber,3,0,38.1,4.0,No
+CUST0970,56,14,86.65,1234.59,One Year,Debit Card,Fiber,2,0,55.1,2.0,Yes
+CUST0971,46,11,58.15,605.33,One Year,Debit Card,DSL,1,1,35.7,4.0,No
+CUST0972,47,18,141.13,2327.04,Two Year,Debit Card,Fiber,1,1,62.5,2.0,No
+CUST0973,25,54,71.61,3693.53,Month-to-Month,Bank Transfer,Fiber,0,2,20.4,4.0,No
+CUST0974,40,12,31.32,361.47,Month-to-Month,UPI,Fiber,2,0,18.2,3.0,No
+CUST0975,31,23,100.22,2006.82,One Year,Debit Card,None,2,1,50.6,3.0,No
+CUST0976,30,12,34.8,401.26,Two Year,Bank Transfer,DSL,4,0,38.2,5.0,No
+CUST0977,60,13,64.88,834.39,One Year,Debit Card,Fiber,1,0,34.7,5.0,No
+CUST0978,58,25,85.96,2292.6,Month-to-Month,Credit Card,Fiber,3,2,59.6,1.0,Yes
+CUST0979,26,45,133.65,6297.03,Two Year,Credit Card,None,0,1,120.8,2.0,Yes
+CUST0980,28,51,84.16,4560.98,Month-to-Month,UPI,DSL,1,1,18.5,3.0,No
+CUST0981,43,58,111.29,5502.79,Two Year,Bank Transfer,Fiber,1,2,80.8,4.0,No
+CUST0982,46,19,149.07,2592.43,Two Year,Credit Card,Fiber,6,3,60.9,1.0,Yes
+CUST0983,32,55,37.09,2138.9,Month-to-Month,Credit Card,Fiber,6,1,33.9,4.0,No
+CUST0984,46,46,55.72,2550.81,One Year,Bank Transfer,Fiber,1,1,93.1,3.0,No
+CUST0985,33,36,71.29,2185.57,Month-to-Month,Debit Card,DSL,3,3,21.7,3.0,No
+CUST0986,60,45,74.84,3675.44,Month-to-Month,Bank Transfer,None,2,2,54.2,3.0,No
+CUST0987,38,8,73.43,635.52,Month-to-Month,Debit Card,Fiber,2,1,39.9,3.0,No
+CUST0988,45,29,137.99,4059.84,One Year,Credit Card,DSL,2,2,33.9,4.0,Yes
+CUST0989,53,55,112.82,5398.06,Two Year,Credit Card,Fiber,2,2,23.4,1.0,Yes
+CUST0990,60,53,99.03,5668.24,One Year,Credit Card,DSL,1,0,144.9,3.0,No
+CUST0991,32,55,60.22,3395.28,Month-to-Month,UPI,DSL,3,1,33.7,5.0,No
+CUST0992,56,32,127.09,4410.89,Two Year,UPI,Fiber,2,4,10.2,1.0,Yes
+CUST0993,24,51,144.16,7907.43,Two Year,UPI,Fiber,4,1,65.8,5.0,Yes
+CUST0994,25,44,126.76,6084.43,Month-to-Month,Bank Transfer,DSL,4,1,51.8,4.0,Yes
+CUST0995,57,18,20.2,365.56,Two Year,Credit Card,Fiber,2,0,37.9,3.0,No
+CUST0996,28,6,102.73,549.87,Month-to-Month,Credit Card,Fiber,2,2,36.0,1.0,No
+CUST0997,48,18,26.65,504.33,Two Year,Bank Transfer,DSL,4,2,42.2,3.0,No
+CUST0998,51,19,53.49,1053.04,Month-to-Month,UPI,None,2,0,66.1,3.0,No
+CUST0999,29,22,27.74,654.63,Month-to-Month,Bank Transfer,Fiber,4,1,52.2,1.0,Yes
+CUST1000,49,37,98.49,3283.23,Month-to-Month,UPI,DSL,0,1,56.5,3.0,Yes
